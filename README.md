@@ -16,16 +16,24 @@ Svaki mjesec biramo 10 sretnih dobitnika kojima ispunjavamo želju da pošalju s
 Neke od ponuđenih destinacija su Mjesec, Venera, najbliže egzoplanete i druga nebeska tijela.
 
 ## Funkcionalnosti: 
-Vlasnik koji se odluči za ovu priliku treba da se registruje, te popuni potrebne podatke kao što su njegovo ime, prezime i JMBG, ime, dob ljubimca i sl. 
-Pri registraciji vlasnik može odabrati i premium verziju koja mu omogućava da mačku pošalje na specijalne destinacije koje su u ponudi samo za premium korisnike, te povećava mogućnost odabira njegove mace za 15%. 
-Ako vlasnik ipak izabere free paket onda se njihova maca šalje na jednu od destinacija koje ima u ponudi kao free korisnik. Odabir premium paketa se može mijenjati i kasnije.
-Registrovani vlasnici također imaju mogućnost komentarisanja postova administratora, editovanja svog profila, mogućnost ostavljanja feedbacka, te učestvovanja u pollovima.
-Aplikacija ima i podršku korisnicima kojoj korisnici mogu pristupiti u vidu FAQ.
-Neregistrovani korisnici će imati pregled koje mačke idu na koju planetu i kada, moći će gledati galeriju slika, historiju maca koje su putovale do tada, te postove uključujući i odbrojavanje do sljedećeg putovanja. Međutim oni nemaju mogućnost učestvovanja niti komentarisanja.
-Administratori će odlučivati koje mačke su kompetentne za učestvovanje(kriteriji bolest, starost,...). Također oni će na osnovu algoritma metodom slučajnog odabira odabrati 10 mačaka(od onih koje su prethodno ispunile uslove kompetentnosti učestvovanja) koje će putovati. Algoritam je takav da će odabrati mačke iz različitih država. Administratori će i odgovarati na poruke korisnika te imati mogućnost dodavanja novih destinacija, uređivanja dijela sa novostima, brisanja komentara i banovanja korisnika.
-Aplikacija će imati i mogućnost share-anja aktivnosti na društvene mreže.
+Neregistrovani korisnici imaju mogućnost kreiranja profila. 
+Vlasnik koji se odluči za ovu priliku treba da se registruje, te popuni potrebne podatke kao što su njegovo ime, prezime i JMBG, ime, dob ljubimca i sl. Pri registraciji vlasnik može birati između free i premium verzije koja se plaća. 
+Svi korisnici imaju mogućnost pregleda narednog leta uključujući i odbrojavanje do sljedećeg putovanja i njegovo dijeljenje na društvenim mrežama. Pored toga imaju pristup historiji maca koje su putovale do tada, te pregled novosti. Aplikacija ima i podršku korisnicima u vidu FAQ.
+Registrirani korisnici se mogu prijaviti na profil.
+Nakon toga imaju mogućnost komentarisanja postova administratora, odabira destinacije, uređivanja svog profila, mogućnost ostavljanja utisaka, učestvovanja u pollovima. 
+Ako vlasnik izabere free paket onda se njihova maca šalje na jednu od destinacija koje ima u ponudi kao free korisnik. Promjena odabranog paketa se može mijenjati i kasnije.
+Premium verzija omogućava korisniku da mačku pošalje na specijalne destinacije koje su u ponudi samo za premium korisnike, te povećava mogućnost odabira njegove mace za 15%. 
+Administrator će odlučivati koje mačke su kompetentne za učestvovanje(kriteriji bolest, starost,...). Također će na osnovu algoritma metodom slučajnog odabira odabrati 10 mačaka(od onih koje su prethodno ispunile uslove kompetentnosti učestvovanja) koje će putovati. Algoritam je takav da će odabrati mačke iz različitih država. Administrator imati mogućnost dodavanja novih destinacija, te ažuriranja dijela sa novostima što uključuje odgovaranje na pitanja korisnika. Pored toga može upravljati aktivnostima korisnika u vidu brisanja komentara i brisanja profila korisnika.
 
-## Akteri: 
+## Dodaci:
+Od vanjskih uređaja aplikacija koristi kameru za fotografiju mačke.
+Nakon slikanja kamerom slika će se automatski postaviti za profilnu i administratori će dobiti obavještenje da je korisnik promijenio sliku da bi mogli provjeriti da li je to zaista slika mačke.
+Pri unosu podataka za registraciju polja se resetuju na prvobitno stanje ako prođe više od 20 minuta unosa. Pri registraciji postoji i progress bar koji pokazuje koliko koraka registracije je završeno.
+Kada se mačke izaberu svakom korisniku izabrane mačke će doći notifikacija koja ga obavještava uz čestitku.
+Aplikacija će importovati bazu država u listu da korisnik ne može odabrati nepostojeću pri popunjavanju(jer je država ključna zbog odabira maca iz različitih država).
+
+
+## Učesnici(akteri): 
 * administratori
 * registrovani korisnik(obični i premium)
 * neregistrovani korisnik
