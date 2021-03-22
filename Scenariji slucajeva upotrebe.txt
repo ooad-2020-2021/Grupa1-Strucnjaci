@@ -1,6 +1,6 @@
 Najkompleksnije funkcionalnosti u sistemu za koje ćemo kreirati scenarije slučajeva upotrebe:
-- Kreiranje profila
+- Rad sa profilom
 - Pregled narednog leta
 - Prijava na profil
-- Uređivanje profila
 - Pokretanje odabira mačaka
+- Registrovanje na premium
