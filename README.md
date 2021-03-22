@@ -29,7 +29,6 @@ Administrator će odlučivati koje mačke su kompetentne za učestvovanje(kriter
 Od vanjskih uređaja aplikacija koristi kameru za fotografiju mačke.
 Nakon slikanja kamerom slika će se automatski postaviti za profilnu i administratori će dobiti obavještenje da je korisnik promijenio sliku da bi mogli provjeriti da li je to zaista slika mačke.
 Pri unosu podataka za registraciju polja se resetuju na prvobitno stanje ako prođe više od 20 minuta unosa. Pri registraciji postoji i progress bar koji pokazuje koliko koraka registracije je završeno.
-Kada se mačke izaberu svakom korisniku izabrane mačke će doći notifikacija koja ga obavještava uz čestitku.
 Aplikacija će importovati bazu država u listu da korisnik ne može odabrati nepostojeću pri popunjavanju(jer je država ključna zbog odabira maca iz različitih država).
 
 
