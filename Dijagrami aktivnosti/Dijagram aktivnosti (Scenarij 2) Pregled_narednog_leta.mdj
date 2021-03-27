@@ -1784,6 +1784,19 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAF4ddWFXYX7cLA="
 							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF4dfVLHqj50sI=",
+							"_parent": {
+								"$ref": "AAAAAAF4dN56pMMs+W4="
+							},
+							"font": "Arial;13;0",
+							"left": 400,
+							"top": 440,
+							"width": 67.814453125,
+							"height": 25,
+							"text": "[dijeljenje]"
 						}
 					]
 				}

@@ -2138,17 +2138,17 @@
 										"$ref": "AAAAAAF4dMFQa8ETByc="
 									},
 									"font": "Arial;13;0",
-									"left": 311,
-									"top": 999,
+									"left": 301,
+									"top": 991,
 									"width": 102.62255859375,
 									"height": 13,
-									"alpha": -1.6193020802751188,
-									"distance": 206.24257562394823,
+									"alpha": -1.6539377014036445,
+									"distance": 216.74870241826133,
 									"hostEdge": {
 										"$ref": "AAAAAAF4dMFQa8EUTeE="
 									},
 									"edgePosition": 1,
-									"text": "[neispravan unos]"
+									"text": "[neispravan]"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -2861,17 +2861,17 @@
 										"$ref": "AAAAAAF4ddePu2Qiv7o="
 									},
 									"font": "Arial;13;0",
-									"left": 191,
-									"top": 1039,
+									"left": 183,
+									"top": 992,
 									"width": 88.16259765625,
 									"height": 13,
-									"alpha": -1.0750313306399466,
-									"distance": 111.4136436887332,
+									"alpha": 2.7381733608823557,
+									"distance": 89.15716460273958,
 									"hostEdge": {
 										"$ref": "AAAAAAF4ddePu2QjBDo="
 									},
 									"edgePosition": 1,
-									"text": "[ispravan unos]"
+									"text": "[ispravan]"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -2884,8 +2884,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 287,
-									"top": 1168,
+									"left": 221,
+									"top": 1073,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2905,8 +2905,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 288,
-									"top": 1123,
+									"left": 177,
+									"top": 1074,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2923,7 +2923,7 @@
 							"tail": {
 								"$ref": "AAAAAAF4dLpm6sADPl4="
 							},
-							"points": "288:1033;288:1144;160:1144",
+							"points": "272:1016;192:1016;192:1144;160:1144",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF4ddePu2QkcX0="
@@ -2955,12 +2955,12 @@
 										"$ref": "AAAAAAF4ddfB+2Qzuas="
 									},
 									"font": "Arial;13;0",
-									"left": 152,
+									"left": 160,
 									"top": 768,
 									"width": 29.62451171875,
 									"height": 13,
-									"alpha": 1.997423619619193,
-									"distance": 24.166091947189145,
+									"alpha": 1.8925467521218011,
+									"distance": 31.622776601683793,
 									"hostEdge": {
 										"$ref": "AAAAAAF4ddfB/GQ0o4s="
 									},
@@ -3141,6 +3141,44 @@
 							"top": 1128,
 							"width": 33,
 							"height": 33
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF4dfC1ugfcgqE=",
+							"_parent": {
+								"$ref": "AAAAAAF4dJEo4rubqPI="
+							},
+							"font": "Arial;13;0",
+							"left": 304,
+							"top": 1056,
+							"width": 64,
+							"height": 16
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF4dfFfYgff6b0=",
+							"_parent": {
+								"$ref": "AAAAAAF4dJEo4rubqPI="
+							},
+							"font": "Arial;13;0",
+							"left": 264,
+							"top": 1040,
+							"width": 60,
+							"height": 25,
+							"text": "[unos]"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF4dfNHuAf2Kmg=",
+							"_parent": {
+								"$ref": "AAAAAAF4dJEo4rubqPI="
+							},
+							"font": "Arial;13;0",
+							"left": 192,
+							"top": 808,
+							"width": 60,
+							"height": 25,
+							"text": "[paket]"
 						}
 					]
 				}
@@ -3560,7 +3598,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF4dJEo4rua2rE="
 					},
-					"name": "[neispravan unos]",
+					"name": "[neispravan]",
 					"source": {
 						"$ref": "AAAAAAF4dLpm6sABrxw="
 					},
@@ -3745,7 +3783,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF4dJEo4rua2rE="
 					},
-					"name": "[ispravan unos]",
+					"name": "[ispravan]",
 					"source": {
 						"$ref": "AAAAAAF4dLpm6sABrxw="
 					},
@@ -3860,7 +3898,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF4dJFJB7ufVUM="
 							},
-							"name": "DecisionNode6"
+							"name": "[Unos]"
 						},
 						{
 							"_type": "UMLAction",

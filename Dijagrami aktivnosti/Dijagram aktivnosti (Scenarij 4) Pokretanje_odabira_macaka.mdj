@@ -1048,17 +1048,17 @@
 										"$ref": "AAAAAAF4dVr+VmN8sMA="
 									},
 									"font": "Arial;13;0",
-									"left": 703,
-									"top": 295,
+									"left": 679,
+									"top": 294,
 									"width": 62.8798828125,
 									"height": 13,
-									"alpha": -2.944198168914922,
-									"distance": 10.198039027185569,
+									"alpha": -1.9710372354828454,
+									"distance": 28.231188426986208,
 									"hostEdge": {
 										"$ref": "AAAAAAF4dVr+VmN9zj0="
 									},
 									"edgePosition": 1,
-									"text": "[posjeduje]"
+									"text": "[da]"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -1142,17 +1142,17 @@
 										"$ref": "AAAAAAF4dVs5AmOQqlA="
 									},
 									"font": "Arial;13;0",
-									"left": 535,
+									"left": 575,
 									"top": 296,
 									"width": 80.95166015625,
 									"height": 13,
-									"alpha": 1.7506496809510168,
-									"distance": 55.90169943749474,
+									"alpha": 1.6756731409298637,
+									"distance": 95.524865872714,
 									"hostEdge": {
 										"$ref": "AAAAAAF4dVs5AmORW8A="
 									},
 									"edgePosition": 1,
-									"text": "[ne posjeduje]"
+									"text": "[ne]"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -1527,6 +1527,19 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAF4dV8Q4GPcMU4="
 							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF4dfn1DB29IOo=",
+							"_parent": {
+								"$ref": "AAAAAAF4dU4N92KAuko="
+							},
+							"font": "Arial;13;0",
+							"left": 616,
+							"top": 336,
+							"width": 125.83984375,
+							"height": 51,
+							"text": "[posjedovanje dovoljno mačaka]"
 						}
 					]
 				}
@@ -1648,7 +1661,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF4dU4N92J/EZY="
 					},
-					"name": "[posjeduje]",
+					"name": "[da]",
 					"source": {
 						"$ref": "AAAAAAF4dVdrxmL9fcM="
 					},
@@ -1662,7 +1675,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF4dU4N92J/EZY="
 					},
-					"name": "[ne posjeduje]",
+					"name": "[ne]",
 					"source": {
 						"$ref": "AAAAAAF4dVdrxmL9fcM="
 					},
