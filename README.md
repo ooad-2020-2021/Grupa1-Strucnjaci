@@ -21,7 +21,7 @@ Vlasnik koji se odluči za ovu priliku treba da se registruje, te popuni potrebn
 Svi korisnici imaju mogućnost pregleda narednog leta uključujući i odbrojavanje do sljedećeg putovanja i njegovo dijeljenje na društvenim mrežama. Pored toga imaju pristup historiji maca koje su putovale do tada, te pregled novosti. Aplikacija ima i podršku korisnicima u vidu FAQ.
 Registrirani korisnici se mogu prijaviti na profil.
 Nakon toga imaju mogućnost komentarisanja postova administratora, odabira destinacije, uređivanja svog profila, mogućnost ostavljanja utisaka, učestvovanja u pollovima. 
-Ako vlasnik izabere free paket onda se njihova maca šalje na jednu od destinacija koje ima u ponudi kao free korisnik. Promjena odabranog paketa se može mijenjati i kasnije.
+Ako vlasnik izabere free paket onda se njihova maca šalje na jednu od destinacija koje ima u ponudi kao free korisnik.
 Premium verzija omogućava korisniku da mačku pošalje na specijalne destinacije koje su u ponudi samo za premium korisnike, te povećava mogućnost odabira njegove mace za 15%. 
 Administrator će odlučivati koje mačke su kompetentne za učestvovanje(kriteriji bolest, starost,...). Također će na osnovu algoritma metodom slučajnog odabira odabrati 10 mačaka(od onih koje su prethodno ispunile uslove kompetentnosti učestvovanja) koje će putovati. Algoritam je takav da će odabrati mačke iz različitih država. Administrator imati mogućnost dodavanja novih destinacija, te ažuriranja dijela sa novostima što uključuje odgovaranje na pitanja korisnika. Pored toga može upravljati aktivnostima korisnika u vidu brisanja komentara i brisanja profila korisnika.
 
