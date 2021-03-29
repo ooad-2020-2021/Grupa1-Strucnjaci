@@ -876,7 +876,7 @@
 											"top": 511,
 											"width": 158,
 											"height": 13,
-											"text": "Održavanje leta"
+											"text": "Zakazivanje leta"
 										},
 										{
 											"_type": "LabelView",
@@ -1583,7 +1583,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF4dU4N92J/EZY="
 					},
-					"name": "Održavanje leta"
+					"name": "Zakazivanje leta"
 				},
 				{
 					"_type": "UMLActivityFinalNode",
