@@ -1,0 +1,20 @@
+Potencijalne klase:
+-Profil(podaci)
+-VipProfil
+-Administrator
+-Novost
+-Faq
+-Sistem
+-Komentar
+-Putovanje
+
+Aplikacija će imati klasu Profil u kojoj će biti atributi username, podaci o mački, državi, paketu korisnika.
+Klasa vipProfil koja će imati dodatne atribute vezano za vrijeme isteka vip statusa i slično.
+Zatim klasu Administrator koja će imati sve metode vezane za pokretanje odabira mačaka, objavljivanje novosti, objavljivanje faq itd.
+Pomoćne klase Novost i Faq koje će predstvljati detalje vezane za njih.
+Npr Novost će sadržavati naslov novosti, text novosti, datum i vrijeme itd.
+Faq će sadržavati pitanje, odgovor,...
+Komentar isto tako tekst, username ko ga je napisao, vrijeme...
+Sistem će imati sadržavati osnovne funkcionalnosti od kojih će neke administrator svojim metodama pozivati+neke automatske poput ispisivanja poruka itd.
+Putovanje koje će sadržavati sve vezano za taj put: destinaciju, vrijeme polaska, trajanja puta, listu mačaka korisnika koje idu i sl.
+
