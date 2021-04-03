@@ -2291,7 +2291,7 @@
 											"top": 1015,
 											"width": 175,
 											"height": 39,
-											"text": "Prikazivanje poruke o neuspješnom kreiranju profila",
+											"text": "Prikazivanje poruke o neuspješnom uređivanju profila",
 											"wordWrap": true
 										},
 										{
@@ -4343,7 +4343,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF4dJGCGrusILM="
 							},
-							"name": "Prikazivanje poruke o neuspješnom kreiranju profila"
+							"name": "Prikazivanje poruke o neuspješnom uređivanju profila"
 						},
 						{
 							"_type": "UMLForkNode",
