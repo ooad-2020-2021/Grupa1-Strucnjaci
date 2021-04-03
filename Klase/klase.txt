@@ -1,6 +1,6 @@
 Potencijalne klase:
 -Profil(podaci)
--VipProfil
+-PremiumProfil
 -Administrator
 -Novost
 -Faq
@@ -9,7 +9,7 @@ Potencijalne klase:
 -Putovanje
 
 Aplikacija će imati klasu Profil u kojoj će biti atributi username, podaci o mački, državi, paketu korisnika.
-Klasa vipProfil koja će imati dodatne atribute vezano za vrijeme isteka vip statusa i slično.
+Klasa Premium Profil koja će imati dodatne funkcionalnosti vezane za pogodnosti koje dolaze uz premium paket .
 Zatim klasu Administrator koja će imati sve metode vezane za pokretanje odabira mačaka, objavljivanje novosti, objavljivanje faq itd.
 Pomoćne klase Novost i Faq koje će predstvljati detalje vezane za njih.
 Npr Novost će sadržavati naslov novosti, text novosti, datum i vrijeme itd.
