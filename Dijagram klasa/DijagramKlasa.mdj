@@ -1431,6 +1431,24 @@
 											"height": 13,
 											"text": "+Operation2()",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF4vPfyZG4qAZk=",
+											"_parent": {
+												"$ref": "AAAAAAF4uAHN2NGb97g="
+											},
+											"model": {
+												"$ref": "AAAAAAF4vPfyOW4nm5M="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 1413,
+											"top": 883,
+											"width": 337.1240234375,
+											"height": 13,
+											"text": "+gasajNaAnketi()",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
@@ -5574,13 +5592,30 @@
 											"height": 13,
 											"text": "+dodajOpciju(novaOpcija: String): void",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF4vPn+GoE6WOk=",
+											"_parent": {
+												"$ref": "AAAAAAF4uM8sqCoOSF8="
+											},
+											"model": {
+												"$ref": "AAAAAAF4vPn994E3VbE="
+											},
+											"font": "Arial;13;0",
+											"left": 837,
+											"top": 514,
+											"width": 466.40673828125,
+											"height": 13,
+											"text": "+dodajGlas(opcija: String): void",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 832,
 									"top": 374,
 									"width": 476.40673828125,
-									"height": 143
+									"height": 158
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -12012,6 +12047,14 @@
 								"$ref": "AAAAAAF4uAHN19GSjys="
 							},
 							"name": "Operation2"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF4vPfyOW4nm5M=",
+							"_parent": {
+								"$ref": "AAAAAAF4uAHN19GSjys="
+							},
+							"name": "gasajNaAnketi"
 						}
 					]
 				},
@@ -15377,6 +15420,34 @@
 									"_id": "AAAAAAF4uOFNdCrEF0g=",
 									"_parent": {
 										"$ref": "AAAAAAF4uN4yYCq3R7U="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF4vPn994E3VbE=",
+							"_parent": {
+								"$ref": "AAAAAAF4uM8spSoFgV4="
+							},
+							"name": "dodajGlas",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF4vPvAnYMMcPQ=",
+									"_parent": {
+										"$ref": "AAAAAAF4vPn994E3VbE="
+									},
+									"name": "opcija",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF4vPvAnoMNkgk=",
+									"_parent": {
+										"$ref": "AAAAAAF4vPn994E3VbE="
 									},
 									"type": "void",
 									"direction": "return"
