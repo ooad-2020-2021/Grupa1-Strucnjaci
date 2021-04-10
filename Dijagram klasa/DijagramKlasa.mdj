@@ -4180,7 +4180,7 @@
 											"top": 970,
 											"width": 292.9951171875,
 											"height": 13,
-											"text": "-trajanjePuta: DateTime",
+											"text": "-krajPutovanja: DateTime",
 											"horizontalAlignment": 0
 										}
 									],
@@ -14182,7 +14182,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF4uAjBzNNRcCk="
 							},
-							"name": "trajanjePuta",
+							"name": "krajPutovanja",
 							"visibility": "private",
 							"type": "DateTime"
 						}
