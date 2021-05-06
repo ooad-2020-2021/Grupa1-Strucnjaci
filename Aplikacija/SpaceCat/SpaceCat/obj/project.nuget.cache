@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5xMVAyG85hTJ3ihi/D5e4lk+VvMraVMJWMZkoA9RbtC5mXLH/6blMn9u0hqc6Ad0FRJrs/6gnFFaGB8QJuUOVA==",
+  "dgSpecHash": "OR5X6ezlM9qiF7bin9nIMfeukljh2MzrowmhkdnVhDgEfRIWlAMSfnzl8fia0Jf6feBofEBxFKmKZnyMGX3DpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Belma fax\\source\\repos\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
+  "projectFilePath": "C:\\Users\\Belma fax\\Source\\Repos\\ooad-2020-2021\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Belma fax\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.12\\microsoft.aspnetcore.cryptography.internal.3.1.12.nupkg.sha512",
     "C:\\Users\\Belma fax\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.12\\microsoft.aspnetcore.cryptography.keyderivation.3.1.12.nupkg.sha512",

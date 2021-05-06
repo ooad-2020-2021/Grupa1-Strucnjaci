@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Belma fax\\source\\repos\\SpaceCat\\SpaceCat\\SpaceCat.csproj": {}
+    "C:\\Users\\Belma fax\\Source\\Repos\\ooad-2020-2021\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Belma fax\\source\\repos\\SpaceCat\\SpaceCat\\SpaceCat.csproj": {
+    "C:\\Users\\Belma fax\\Source\\Repos\\ooad-2020-2021\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Belma fax\\source\\repos\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
+        "projectUniqueName": "C:\\Users\\Belma fax\\Source\\Repos\\ooad-2020-2021\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
         "projectName": "SpaceCat",
-        "projectPath": "C:\\Users\\Belma fax\\source\\repos\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
+        "projectPath": "C:\\Users\\Belma fax\\Source\\Repos\\ooad-2020-2021\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
         "packagesPath": "C:\\Users\\Belma fax\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Belma fax\\source\\repos\\SpaceCat\\SpaceCat\\obj\\",
+        "outputPath": "C:\\Users\\Belma fax\\Source\\Repos\\ooad-2020-2021\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Belma fax\\AppData\\Roaming\\NuGet\\NuGet.Config",
