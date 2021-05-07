@@ -7607,7 +7607,7 @@
 											"top": 338,
 											"width": 223,
 											"height": 13,
-											"text": "+UtisakControler(utisak: Utisak)",
+											"text": "+UtisakControler()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -8115,7 +8115,7 @@
 											"top": 352,
 											"width": 230,
 											"height": 13,
-											"text": "+FaqController(faq: Faq)",
+											"text": "+FaqController()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -8491,7 +8491,7 @@
 											"top": 344,
 											"width": 315.87841796875,
 											"height": 13,
-											"text": "+NovostController(novost: Novost)",
+											"text": "+NovostController()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -9068,7 +9068,7 @@
 											"top": 352,
 											"width": 278,
 											"height": 13,
-											"text": "+AnketaController(anketa: Anketa)",
+											"text": "+AnketaController()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -9613,7 +9613,7 @@
 											"top": 952,
 											"width": 313.6884765625,
 											"height": 13,
-											"text": "+DestinacijaController(destinacija: Destinacija)",
+											"text": "+DestinacijaController()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -10157,7 +10157,7 @@
 											"top": 968,
 											"width": 299.97119140625,
 											"height": 13,
-											"text": "+PustovanjeController(putovanje: Putovanje)",
+											"text": "+PustovanjeController()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -10530,7 +10530,7 @@
 											"top": 960,
 											"width": 255.42333984375,
 											"height": 13,
-											"text": "+KomentarController(komentar: Komentar)",
+											"text": "+KomentarController()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -11056,7 +11056,7 @@
 											"top": 520,
 											"width": 332.47119140625,
 											"height": 13,
-											"text": "+MackaController(macka: Macka)",
+											"text": "+MackaController()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -26686,20 +26686,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF5JQcQaGTGy5I="
 							},
-							"name": "UtisakControler",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF5PmkCtmv5QQ8=",
-									"_parent": {
-										"$ref": "AAAAAAF5JQuoAbqsN80="
-									},
-									"name": "utisak",
-									"type": {
-										"$ref": "AAAAAAF4vHIei24lbeA="
-									}
-								}
-							]
+							"name": "UtisakControler"
 						},
 						{
 							"_type": "UMLOperation",
@@ -26916,20 +26903,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF5JRJw/9ahrSk="
 							},
-							"name": "FaqController",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF5Pm06PVWzlmQ=",
-									"_parent": {
-										"$ref": "AAAAAAF5PmyzHlHUbbE="
-									},
-									"name": "faq",
-									"type": {
-										"$ref": "AAAAAAF4uAgvItL6GT0="
-									}
-								}
-							]
+							"name": "FaqController"
 						},
 						{
 							"_type": "UMLOperation",
@@ -27204,20 +27178,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF5JRnMwehEIxY="
 							},
-							"name": "NovostController",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF5PmWyLfkBNmM=",
-									"_parent": {
-										"$ref": "AAAAAAF5PmTbtvFK6UU="
-									},
-									"name": "novost",
-									"type": {
-										"$ref": "AAAAAAF4uAfaqdJ9vD8="
-									}
-								}
-							]
+							"name": "NovostController"
 						},
 						{
 							"_type": "UMLOperation",
@@ -27696,20 +27657,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF5JR3X2fsFyxA="
 							},
-							"name": "AnketaController",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF5Pmd0HQ8oIOM=",
-									"_parent": {
-										"$ref": "AAAAAAF5PmYkggtJEhQ="
-									},
-									"name": "anketa",
-									"type": {
-										"$ref": "AAAAAAF4uM8spSoFgV4="
-									}
-								}
-							]
+							"name": "AnketaController"
 						},
 						{
 							"_type": "UMLOperation",
@@ -28109,20 +28057,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF5JSRkbCh9bow="
 							},
-							"name": "DestinacijaController",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF5PmsTDd39ZgM=",
-									"_parent": {
-										"$ref": "AAAAAAF5PmqwSNitTe0="
-									},
-									"name": "destinacija",
-									"type": {
-										"$ref": "AAAAAAF4uHdiI94Gvow="
-									}
-								}
-							]
+							"name": "DestinacijaController"
 						},
 						{
 							"_type": "UMLOperation",
@@ -28442,20 +28377,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF5JSbGXDclzQ4="
 							},
-							"name": "PustovanjeController",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF5PmpwHMEbJCI=",
-									"_parent": {
-										"$ref": "AAAAAAF5PmoO7b08p+M="
-									},
-									"name": "putovanje",
-									"type": {
-										"$ref": "AAAAAAF4uAjBzNNRcCk="
-									}
-								}
-							]
+							"name": "PustovanjeController"
 						},
 						{
 							"_type": "UMLOperation",
@@ -28826,20 +28748,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF5JSxUe1PnXGE="
 							},
-							"name": "KomentarController",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF5PmnDVbA9mJk=",
-									"_parent": {
-										"$ref": "AAAAAAF5PmlZ+6xeET4="
-									},
-									"name": "komentar",
-									"type": {
-										"$ref": "AAAAAAF4uAhQmtMkYGk="
-									}
-								}
-							]
+							"name": "KomentarController"
 						},
 						{
 							"_type": "UMLOperation",
@@ -29176,20 +29085,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF5JS/sV4mhJBY="
 							},
-							"name": "MackaController",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF5Pmhtfj1WKrg=",
-									"_parent": {
-										"$ref": "AAAAAAF5Pmfe/Tl3GRQ="
-									},
-									"name": "macka",
-									"type": {
-										"$ref": "AAAAAAF4uAHN19GSjys="
-									}
-								}
-							]
+							"name": "MackaController"
 						},
 						{
 							"_type": "UMLOperation",
