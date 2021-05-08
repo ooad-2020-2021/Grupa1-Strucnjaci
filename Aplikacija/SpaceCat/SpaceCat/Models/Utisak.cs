@@ -4,9 +4,15 @@ namespace SpaceCat
 {
 	public class Utisak()
 	{
-		public int ID { get; set;}
-		public Macka macka { get; set; }
-		public string text { get; set; }
-	    public Ocjena ocjena { get; set }
+		public Utisak(string text, Ocjena ocjena, Macka macka)
+		{
+		Utisak.text = text;
+		Utisak.ocjena = ocjena;
+		Utisak.macka = macka;
+		}
+		public int ID { get;}
+		public Macka macka { get; }
+		public string text { get; }
+	    public Ocjena ocjena { get; }
 	}
 }
