@@ -25,5 +25,9 @@ namespace SpaceCat.Data
         public DbSet<SpaceCat.Macka> Macka { get; set; }
 
         public DbSet<SpaceCat.Komentar> Komentar { get; set; }
+
+        public DbSet<SpaceCat.Putovanje> Putovanje { get; set; }
+
+        public DbSet<SpaceCat.Utisak> Utisak { get; set; }
     }
 }

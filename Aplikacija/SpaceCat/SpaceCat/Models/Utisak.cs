@@ -1,18 +1,29 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace SpaceCat
 {
 	public class Utisak
 	{
-		public Utisak(string text, Ocjena ocjena, Macka macka)
+        #region Konstruktori
+        public Utisak() { }
+        public Utisak(string text, Ocjena ocjena, Macka macka)
 		{
 			Text = text;
 			Ocjena = ocjena;
 			Macka = macka;
 		}
-		public int ID { get;}
+        #endregion
+        #region Properties
+		[Key]
+		[Required]
+        public int ID { get; set; }
+		[Required]
 		public Macka Macka { get; }
+		[Required]
 		public string Text { get; }
-	    public Ocjena Ocjena { get; }
-	}
+		[Required]
+		public Ocjena Ocjena { get; }
+        #endregion
+    }
 }
