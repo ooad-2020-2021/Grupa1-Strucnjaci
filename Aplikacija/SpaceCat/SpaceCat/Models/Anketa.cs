@@ -13,9 +13,15 @@ namespace SpaceCat
 		public int ID { get; }
 		public string Text { get; set; }
 		public Dictionary<string, double> OpcijeIGlasovi { get; set; }
-		//getGlasovi
-		//setGlasovi
-		//dodajOpciju
-		//dodajGlas
+		public getGlasovi() {
+			return OpcijeIGlasovi.Keys.ToList();
+		}
+	
+		public dodajOpciju(string opcija) { 
+			OpcijeIGlasovi.Add(opcija, 0);
+		}
+		public dodajGlas(string opcija) { 
+			OpcijeIGlasovi[opcija].Value++;
+		}
 	}
 }
