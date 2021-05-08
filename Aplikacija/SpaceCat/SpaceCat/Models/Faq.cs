@@ -1,17 +1,27 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace SpaceCat
 {
 	public class Faq
 	{
-		public Faq(string pitanje, string odgovor)
+		#region Konstruktori
+		public Faq() { }
+        public Faq(string pitanje, string odgovor)
 		{
 		Pitanje = pitanje;
 		Odgovor = odgovor;
 		}
-		public int ID { get; }
+        #endregion
+
+        #region Properties
+		[Key]
+		[Required]
+        public int ID { get; set; }
+		[Required]
 		public string Pitanje { get; set; }
+		[Required]
 		public string Odgovor { get; set; }
-		
-	}
+        #endregion
+    }
 }

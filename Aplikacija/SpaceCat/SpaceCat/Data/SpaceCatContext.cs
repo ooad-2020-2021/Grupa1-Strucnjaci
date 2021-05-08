@@ -17,5 +17,13 @@ namespace SpaceCat.Data
         public DbSet<SpaceCat.Anketa> Anketa { get; set; }
 
         public DbSet<SpaceCat.Destinacija> Destinacija { get; set; }
+
+        public DbSet<SpaceCat.Faq> Faq { get; set; }
+
+        public DbSet<SpaceCat.Novost> Novost { get; set; }
+
+        public DbSet<SpaceCat.Macka> Macka { get; set; }
+
+        public DbSet<SpaceCat.Komentar> Komentar { get; set; }
     }
 }
