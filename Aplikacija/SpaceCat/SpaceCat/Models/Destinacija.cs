@@ -7,7 +7,7 @@ namespace SpaceCat
 {
     public class Destinacija
     {
-        public int id { get; }
+        public int ID { get; }
         public Paket Paket { get; set; }
         public string Naziv { get; set; }
         public string Slika { get; set; }

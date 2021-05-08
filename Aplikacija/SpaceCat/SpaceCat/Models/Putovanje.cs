@@ -7,7 +7,7 @@ namespace SpaceCat
 {
     public class Putovanje
     {
-        public int id { get; }
+        public int ID { get; }
         public List<Macka> SpisakMacaka { get; set; }
         public DateTime VrijemePolaska { get; set; }
         public Destinacija Destinacija { get; set; }
