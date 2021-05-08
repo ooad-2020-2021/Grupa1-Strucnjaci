@@ -8,6 +8,7 @@ namespace SpaceCat
 {
     public class Destinacija
     {
+        #region Properties
         [Required]
         [Key]
         public int ID { get; set; }
@@ -17,12 +18,17 @@ namespace SpaceCat
         public string Naziv { get; set; }
         [Required]
         public string Slika { get; set; }
-       /* public Destinacija(Paket paket, string naziv, string slika)
+        #endregion
+
+        #region Konstruktori
+        public Destinacija() { }
+        public Destinacija(Paket paket, string naziv, string slika)
         {
             Paket = paket;
             Naziv = naziv;
             Slika = slika;
-        }*/
+        }
+        #endregion
     }
-   
+
 }
