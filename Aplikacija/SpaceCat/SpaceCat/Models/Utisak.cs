@@ -1,8 +1,12 @@
 ﻿using System;
 
-public class Class1
+namespace SpaceCat
 {
-	public Class1()
+	public class Utisak()
 	{
+		public int ID { get; set;}
+		public Macka macka { get; set; }
+		public string text { get; set; }
+	    public Ocjena ocjena { get; set }
 	}
 }
