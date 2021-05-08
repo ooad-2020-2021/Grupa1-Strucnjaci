@@ -1,8 +1,20 @@
 ﻿using System;
 
-public class Class1
+namespace SpaceCat
 {
-	public Class1()
+	public class Komentar()
 	{
+		public Komentar(string text, Novost novost, Macka macka, DateTime vrijemeObjave)
+		{
+			Text = text;
+			Novost = novost;
+			Macka = macka;
+			VrijemeObjave = vrijemeObjave;
+		}
+		public int ID { get; }
+		public Novost Novost { get; set; }
+		public Macka Macka { get; set; }
+		public string Text { get; set; }
+		public DateTime VrijemeObjave { get; set; }
 	}
 }

@@ -1,8 +1,17 @@
 ﻿using System;
 
-public class Class1
+namespace SpaceCat
 {
-	public Class1()
+	public class Faq()
 	{
+		public Faq(string pitanje, string odgovor)
+		{
+		Pitanje = pitanje;
+		Odgovor = odgovor;
+		}
+		public int ID { get; }
+		public string Pitanje { get; set; }
+		public string Odgovor { get; set; }
+		
 	}
 }
