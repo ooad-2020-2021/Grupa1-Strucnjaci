@@ -8,14 +8,14 @@ namespace SpaceCat
 {
 	public class Anketa
 	{
-		public Anketa(string text, Dictionary<string,double> opcijeIGlasovi)
+		/*public Anketa(string text, Dictionary<string,double> opcijeIGlasovi)
 		{
 			Text = text;
 			OpcijeIGlasovi = opcijeIGlasovi;
-		}
+		}*/
 		[Required]
 		[Key]
-		public int ID { get; }
+		public int ID { get; set; }
 		[Required]
 		public string Text { get; set; }
 		[Required]
