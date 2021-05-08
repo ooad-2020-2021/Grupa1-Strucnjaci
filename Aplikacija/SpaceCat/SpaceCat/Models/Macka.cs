@@ -23,6 +23,7 @@ namespace SpaceCat
         public double VjerovatnocaOdabira { get; set; }
         public bool Kompetentna { get; set; }
         public Destinacija Destinacija { get; set; }
+        public Macka() { }
         public Macka(string korisnickoIme, string lozinka, string imeVlasnika, string imeMacke, string drzava, PolMacke pol, uint dobMacke, bool zdravaMacka, string slika, Paket paket, double vjerovatnocaOdabira, Destinacija dest)
         {
             KorisnickoIme = korisnickoIme;
