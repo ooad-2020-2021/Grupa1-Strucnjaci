@@ -2,7 +2,7 @@
 
 namespace SpaceCat
 {
-	public class Komentar()
+	public class Komentar
 	{
 		public Komentar(string text, Novost novost, Macka macka, DateTime vrijemeObjave)
 		{

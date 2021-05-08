@@ -2,7 +2,7 @@
 
 namespace SpaceCat
 {
-	public class Utisak()
+	public class Utisak
 	{
 		public Utisak(string text, Ocjena ocjena, Macka macka)
 		{

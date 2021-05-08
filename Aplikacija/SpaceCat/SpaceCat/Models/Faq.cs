@@ -2,7 +2,7 @@
 
 namespace SpaceCat
 {
-	public class Faq()
+	public class Faq
 	{
 		public Faq(string pitanje, string odgovor)
 		{

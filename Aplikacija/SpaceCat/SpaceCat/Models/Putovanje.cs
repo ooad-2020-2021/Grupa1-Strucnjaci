@@ -12,15 +12,15 @@ namespace SpaceCat
         public DateTime VrijemePolaska { get; set; }
         public Destinacija Destinacija { get; set; }
         public DateTime KrajPutovanja { get; set; }
-        public Putovanje(DateTime vrijemePolaska, Destinacija destinacija, DateTime krajPuta)
+        public Putovanje(DateTime vrijemePolaska, Destinacija destinacija, DateTime krajPutovanja)
         {
             VrijemePolaska = vrijemePolaska;
             Destinacija = destinacija;
-            KrajPuta = krajPuta;
+            KrajPutovanja = krajPutovanja;
         }
         public void DodajMacku(Macka macka)
         {
-            SpisakMacaka.Add(Macka);
+            SpisakMacaka.Add(macka);
         }
     }
 }

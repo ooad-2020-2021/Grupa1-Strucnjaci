@@ -2,7 +2,7 @@
 
 namespace SpaceCat
 {
-	public enum Ocjena()
+	public enum Ocjena
 	{
 		JEDAN,
 		JEDANIPO,
