@@ -6,13 +6,13 @@ namespace SpaceCat
 	{
 		public Utisak(string text, Ocjena ocjena, Macka macka)
 		{
-		Utisak.text = text;
-		Utisak.ocjena = ocjena;
-		Utisak.macka = macka;
+			Text = text;
+			Ocjena = ocjena;
+			Macka = macka;
 		}
 		public int ID { get;}
-		public Macka macka { get; }
-		public string text { get; }
-	    public Ocjena ocjena { get; }
+		public Macka Macka { get; }
+		public string Text { get; }
+	    public Ocjena Ocjena { get; }
 	}
 }
