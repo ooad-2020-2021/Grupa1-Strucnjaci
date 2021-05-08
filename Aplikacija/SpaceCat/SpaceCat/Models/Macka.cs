@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SpaceCat
 {
-    public class Macka
+    public class Macka:IProfil
     {
         public int ID { get; }
         public string KorisnickoIme { get; set; }
