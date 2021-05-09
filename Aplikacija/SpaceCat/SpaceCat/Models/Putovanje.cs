@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace SpaceCat
 {
     public class Putovanje
@@ -14,12 +15,14 @@ namespace SpaceCat
         [Required]
         public int ID { get; set; }
         [NotMapped]
+
+        [Range(0, 10, ErrorMessage = "Broj macaka odabranih za putovanje ne smije biti veci od 10")]
         public List<Macka> SpisakMacaka { get; set; }
         [DataType(DataType.Date)]
-        public DateTime VrijemePolaska { get; set; }
+        public DateTime? VrijemePolaska { get; set; }
         public Destinacija Destinacija { get; set; }
         [DataType(DataType.Date)]
-        public DateTime KrajPutovanja { get; set; }
+        public DateTime? KrajPutovanja { get; set; }
         #endregion
         #region Konstruktori
         public Putovanje() { }

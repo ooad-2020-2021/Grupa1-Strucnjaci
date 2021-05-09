@@ -197,3 +197,8 @@ C:\Users\Belma fax\Source\Repos\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\o
 C:\Users\Belma fax\Source\Repos\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Putovanje\Details.cshtml.g.cs
 C:\Users\Belma fax\Source\Repos\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Putovanje\Edit.cshtml.g.cs
 C:\Users\Belma fax\Source\Repos\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Putovanje\Index.cshtml.g.cs
+C:\Users\Belma fax\Source\Repos\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Utisak\Create.cshtml.g.cs
+C:\Users\Belma fax\Source\Repos\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Utisak\Delete.cshtml.g.cs
+C:\Users\Belma fax\Source\Repos\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Utisak\Details.cshtml.g.cs
+C:\Users\Belma fax\Source\Repos\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Utisak\Edit.cshtml.g.cs
+C:\Users\Belma fax\Source\Repos\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Utisak\Index.cshtml.g.cs
