@@ -15,6 +15,7 @@ namespace SpaceCat
         [Required]
         public string KorisnickoIme { get; set; }
         [Required]
+        [Range(5, int.MaxValue, ErrorMessage = "Lozinka mora imati najmanje 5 znakova")]
         public string Lozinka { get; set; }
         [Required]
         public string ImeVlasnika { get; set; }
