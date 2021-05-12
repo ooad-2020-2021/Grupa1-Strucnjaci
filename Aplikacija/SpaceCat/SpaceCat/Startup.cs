@@ -36,7 +36,7 @@ namespace SpaceCat
             //services.AddRazorPages();
 
             services.AddDbContext<SpaceCatContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("SpaceCatContext")));
+                    options.UseMySQL(Configuration.GetConnectionString("SpaceCatContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
