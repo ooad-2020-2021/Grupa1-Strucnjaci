@@ -23320,6 +23320,7 @@
 											"top": 1237,
 											"width": 406,
 											"height": 13,
+											"underline": true,
 											"text": "-kapiten: KapitenMackaSingleton",
 											"horizontalAlignment": 0
 										}
@@ -42025,6 +42026,7 @@
 							},
 							"name": "kapiten",
 							"visibility": "private",
+							"isStatic": true,
 							"type": {
 								"$ref": "AAAAAAF5lLly9+cFSS8="
 							}
