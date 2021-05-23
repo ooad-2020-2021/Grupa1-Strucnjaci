@@ -22619,32 +22619,6 @@
 							}
 						},
 						{
-							"_type": "UMLTextView",
-							"_id": "AAAAAAF5lIjKNYu7DBE=",
-							"_parent": {
-								"$ref": "AAAAAAF4uADuXdGLpbI="
-							},
-							"font": "Arial;13;0",
-							"left": 2392,
-							"top": 344,
-							"width": 352,
-							"height": 48,
-							"text": "Medijator patern"
-						},
-						{
-							"_type": "UMLTextView",
-							"_id": "AAAAAAF5lPVqpaX7dPM=",
-							"_parent": {
-								"$ref": "AAAAAAF4uADuXdGLpbI="
-							},
-							"font": "Arial;13;0",
-							"left": 1792,
-							"top": 1640,
-							"width": 192,
-							"height": 64,
-							"text": "Abstract factory patern"
-						},
-						{
 							"_type": "UMLAssociationView",
 							"_id": "AAAAAAF5lce7pa+4bnM=",
 							"_parent": {
@@ -33298,6 +33272,84 @@
 							"headQualifiersCompartment": {
 								"$ref": "AAAAAAF5lfZbjkdBvvg="
 							}
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF5mUOD/R3XwkQ=",
+							"_parent": {
+								"$ref": "AAAAAAF4uADuXdGLpbI="
+							},
+							"font": "Arial;13;0",
+							"left": 1456,
+							"top": 656,
+							"width": 80,
+							"height": 40,
+							"text": "Iterator patern"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF5mUQBNz7d+Yk=",
+							"_parent": {
+								"$ref": "AAAAAAF4uADuXdGLpbI="
+							},
+							"font": "Arial;13;0",
+							"left": 1808,
+							"top": 1648,
+							"width": 128,
+							"height": 56,
+							"text": "Abstract Factory patern"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF5mUShwVMj7tY=",
+							"_parent": {
+								"$ref": "AAAAAAF4uADuXdGLpbI="
+							},
+							"font": "Arial;13;0",
+							"left": 1112,
+							"top": 1208,
+							"width": 80,
+							"height": 48,
+							"text": "Singleton patern"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF5mUUdkoGn1sY=",
+							"_parent": {
+								"$ref": "AAAAAAF4uADuXdGLpbI="
+							},
+							"font": "Arial;13;0",
+							"left": 2448,
+							"top": 352,
+							"width": 112,
+							"height": 48,
+							"text": "Medijator patern"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF5mUm8di+u5MU=",
+							"_parent": {
+								"$ref": "AAAAAAF4uADuXdGLpbI="
+							},
+							"font": "Arial;13;0",
+							"left": 1816,
+							"top": 64,
+							"width": 104,
+							"height": 40,
+							"text": "Decorator patern"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF5mUpyK3DzETo=",
+							"_parent": {
+								"$ref": "AAAAAAF4uADuXdGLpbI="
+							},
+							"font": "Arial;13;0",
+							"left": 344,
+							"top": 376,
+							"width": 88,
+							"height": 56,
+							"text": "Composite patern"
 						}
 					]
 				},
