@@ -63,9 +63,9 @@
 												"$ref": "AAAAAAF5lYjPZs/eePM="
 											},
 											"font": "Arial;13;0",
-											"left": 24.72998046875,
+											"left": 22.55908203125,
 											"top": 5,
-											"width": 102.8798828125,
+											"width": 97.74462890625,
 											"height": 13,
 											"text": "UredjivanjeProfila"
 										},
@@ -78,7 +78,7 @@
 											"font": "Arial;13;1",
 											"left": 5,
 											"top": 5,
-											"width": 14.72998046875,
+											"width": 12.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -345,9 +345,9 @@
 												"$ref": "AAAAAAF5lZGqPtCtnQA="
 											},
 											"font": "Arial;13;0",
-											"left": 32.72998046875,
+											"left": 31.99365234375,
 											"top": 301,
-											"width": 150.59521484375,
+											"width": 136.73193359375,
 											"height": 13,
 											"text": "OdobrenjePregledaProfila"
 										},
@@ -360,7 +360,7 @@
 											"font": "Arial;13;1",
 											"left": 13,
 											"top": 301,
-											"width": 14.72998046875,
+											"width": 13.99365234375,
 											"height": 13,
 											"text": "alt"
 										},
@@ -491,9 +491,9 @@
 												"$ref": "AAAAAAF5lZuP4NGYUpM="
 											},
 											"font": "Arial;13;0",
-											"left": 56.72998046875,
+											"left": 55.99365234375,
 											"top": 933,
-											"width": 159.7421875,
+											"width": 145.41552734375,
 											"height": 13,
 											"text": "ProvjeraValidnostiPodataka"
 										},
@@ -506,7 +506,7 @@
 											"font": "Arial;13;1",
 											"left": 37,
 											"top": 933,
-											"width": 14.72998046875,
+											"width": 13.99365234375,
 											"height": 13,
 											"text": "alt"
 										},
@@ -663,9 +663,9 @@
 												"$ref": "AAAAAAF5laKgV9Jc4+k="
 											},
 											"font": "Arial;13;0",
-											"left": 61.07177734375,
+											"left": 59.61181640625,
 											"top": 525,
-											"width": 66.03173828125,
+											"width": 62.36279296875,
 											"height": 13,
 											"text": "Uredjivanje"
 										},
@@ -678,7 +678,7 @@
 											"font": "Arial;13;1",
 											"left": 37,
 											"top": 525,
-											"width": 19.07177734375,
+											"width": 17.61181640625,
 											"height": 13,
 											"text": "opt"
 										},
@@ -765,7 +765,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 59.578125,
+											"left": 58.11181640625,
 											"top": 477,
 											"width": 1,
 											"height": 13
@@ -779,7 +779,7 @@
 											"font": "Arial;13;1",
 											"left": 29,
 											"top": 477,
-											"width": 25.578125,
+											"width": 24.11181640625,
 											"height": 13,
 											"text": "loop"
 										},
@@ -866,7 +866,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 91.51904296875,
+											"left": 87.869140625,
 											"top": 1061,
 											"width": 1,
 											"height": 13
@@ -880,7 +880,7 @@
 											"font": "Arial;13;1",
 											"left": 53,
 											"top": 1061,
-											"width": 33.51904296875,
+											"width": 29.869140625,
 											"height": 13,
 											"text": "break"
 										},
@@ -4528,9 +4528,9 @@
 												"$ref": "AAAAAAF5lfEVagdD+bY="
 											},
 											"font": "Arial;13;0",
-											"left": 24.72998046875,
+											"left": 22.55908203125,
 											"top": 5,
-											"width": 86.97265625,
+											"width": 82.5927734375,
 											"height": 13,
 											"text": "PrijavaNaProfil"
 										},
@@ -4543,7 +4543,7 @@
 											"font": "Arial;13;1",
 											"left": 5,
 											"top": 5,
-											"width": 14.72998046875,
+											"width": 12.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -4807,9 +4807,9 @@
 												"$ref": "AAAAAAF5lfP2gQftU5Y="
 											},
 											"font": "Arial;13;0",
-											"left": 80.72998046875,
+											"left": 79.99365234375,
 											"top": 341,
-											"width": 98.55078125,
+											"width": 88.37548828125,
 											"height": 13,
 											"text": "IspravnostUnosa"
 										},
@@ -4822,7 +4822,7 @@
 											"font": "Arial;13;1",
 											"left": 61,
 											"top": 341,
-											"width": 14.72998046875,
+											"width": 13.99365234375,
 											"height": 13,
 											"text": "alt"
 										},
@@ -6680,9 +6680,9 @@
 												"$ref": "AAAAAAF5lfssOwiQCtE="
 											},
 											"font": "Arial;13;0",
-											"left": 32.72998046875,
+											"left": 30.55908203125,
 											"top": 13,
-											"width": 128.20703125,
+											"width": 115.06103515625,
 											"height": 13,
 											"text": "PregledNarednogLeta"
 										},
@@ -6695,7 +6695,7 @@
 											"font": "Arial;13;1",
 											"left": 13,
 											"top": 13,
-											"width": 14.72998046875,
+											"width": 12.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -6961,9 +6961,9 @@
 												"$ref": "AAAAAAF5lfyQmwjislk="
 											},
 											"font": "Arial;13;0",
-											"left": 61.7890625,
+											"left": 59.59912109375,
 											"top": 117,
-											"width": 64.59716796875,
+											"width": 60.19189453125,
 											"height": 13,
 											"text": "NaredniLet"
 										},
@@ -6976,7 +6976,7 @@
 											"font": "Arial;13;1",
 											"left": 37,
 											"top": 117,
-											"width": 19.7890625,
+											"width": 17.59912109375,
 											"height": 13,
 											"text": "par"
 										},
@@ -7062,9 +7062,9 @@
 												"$ref": "AAAAAAF5lf5XsAlYsZY="
 											},
 											"font": "Arial;13;0",
-											"left": 93.07177734375,
+											"left": 91.61181640625,
 											"top": 325,
-											"width": 190.28076171875,
+											"width": 177.87744140625,
 											"height": 13,
 											"text": "DijeljenjeNaDrustvenimMrezama"
 										},
@@ -7077,7 +7077,7 @@
 											"font": "Arial;13;1",
 											"left": 69,
 											"top": 325,
-											"width": 19.07177734375,
+											"width": 17.61181640625,
 											"height": 13,
 											"text": "opt"
 										},
@@ -8534,7 +8534,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 96.72998046875,
-											"top": 322,
+											"top": 317,
 											"width": 175.16064453125,
 											"height": 13,
 											"text": "PosjedovanjeDovoljnoMacaka"
@@ -8547,7 +8547,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 77,
-											"top": 322,
+											"top": 317,
 											"width": 14.72998046875,
 											"height": 13,
 											"text": "alt"
@@ -8581,13 +8581,13 @@
 															"visible": false,
 															"font": "Arial;13;0",
 															"left": 92,
-															"top": 355,
+															"top": 350,
 															"height": 13
 														}
 													],
 													"font": "Arial;13;0",
 													"left": 72,
-													"top": 340,
+													"top": 335,
 													"width": 793,
 													"height": 210,
 													"guardLabel": {
@@ -8613,13 +8613,13 @@
 															"visible": false,
 															"font": "Arial;13;0",
 															"left": 92,
-															"top": 565,
+															"top": 560,
 															"height": 13
 														}
 													],
 													"font": "Arial;13;0",
 													"left": 72,
-													"top": 550,
+													"top": 545,
 													"width": 793,
 													"height": 43,
 													"guardLabel": {
@@ -8629,14 +8629,14 @@
 											],
 											"font": "Arial;13;0",
 											"left": 72,
-											"top": 340,
+											"top": 335,
 											"width": 793,
 											"height": 253
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 72,
-									"top": 317,
+									"top": 312,
 									"width": 793,
 									"height": 276,
 									"nameLabel": {
@@ -9813,7 +9813,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 234,
-											"top": 554,
+											"top": 556,
 											"width": 218.23876953125,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -9836,7 +9836,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 343,
-											"top": 569,
+											"top": 571,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 25,
@@ -9857,7 +9857,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 344,
-											"top": 534,
+											"top": 536,
 											"height": 13,
 											"alpha": -1.5707963267948966,
 											"distance": 10,
@@ -9878,7 +9878,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 172,
-											"top": 550,
+											"top": 552,
 											"width": 14,
 											"height": 25
 										}
@@ -9890,7 +9890,7 @@
 									"tail": {
 										"$ref": "AAAAAAF5lgJ4Mgo5Bdg="
 									},
-									"points": "516:550;172:550",
+									"points": "516:552;172:552",
 									"nameLabel": {
 										"$ref": "AAAAAAF5lgJ4Mgpee20="
 									},
@@ -10147,9 +10147,9 @@
 												"$ref": "AAAAAAF5m5B76FAhRCg="
 											},
 											"font": "Arial;13;0",
-											"left": 24.72998046875,
+											"left": 22.55908203125,
 											"top": 21,
-											"width": 89.87353515625,
+											"width": 85.4619140625,
 											"height": 13,
 											"text": "KreiranjeProfila"
 										},
@@ -10162,7 +10162,7 @@
 											"font": "Arial;13;1",
 											"left": 5,
 											"top": 21,
-											"width": 14.72998046875,
+											"width": 12.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -10430,9 +10430,9 @@
 												"$ref": "AAAAAAF5m5B76VA7ITI="
 											},
 											"font": "Arial;13;0",
-											"left": 64.72998046875,
+											"left": 63.99365234375,
 											"top": 709,
-											"width": 159.7421875,
+											"width": 145.41552734375,
 											"height": 13,
 											"text": "ProvjeraValidnostiPodataka"
 										},
@@ -10445,7 +10445,7 @@
 											"font": "Arial;13;1",
 											"left": 45,
 											"top": 709,
-											"width": 14.72998046875,
+											"width": 13.99365234375,
 											"height": 13,
 											"text": "alt"
 										},
@@ -10590,7 +10590,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 51.578125,
+											"left": 50.11181640625,
 											"top": 197,
 											"width": 1,
 											"height": 13
@@ -10604,7 +10604,7 @@
 											"font": "Arial;13;1",
 											"left": 21,
 											"top": 197,
-											"width": 25.578125,
+											"width": 24.11181640625,
 											"height": 13,
 											"text": "loop"
 										},
@@ -10691,7 +10691,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 139.51904296875,
+											"left": 135.869140625,
 											"top": 869,
 											"width": 1,
 											"height": 13
@@ -10705,7 +10705,7 @@
 											"font": "Arial;13;1",
 											"left": 101,
 											"top": 869,
-											"width": 33.51904296875,
+											"width": 29.869140625,
 											"height": 13,
 											"text": "break"
 										},
@@ -11911,9 +11911,9 @@
 												"$ref": "AAAAAAF5m6LYilNmQ34="
 											},
 											"font": "Arial;13;0",
-											"left": 72.72998046875,
+											"left": 71.99365234375,
 											"top": 445,
-											"width": 80.49169921875,
+											"width": 71.7509765625,
 											"height": 13,
 											"text": "OdabirPaketa"
 										},
@@ -11926,7 +11926,7 @@
 											"font": "Arial;13;1",
 											"left": 53,
 											"top": 445,
-											"width": 14.72998046875,
+											"width": 13.99365234375,
 											"height": 13,
 											"text": "alt"
 										},
