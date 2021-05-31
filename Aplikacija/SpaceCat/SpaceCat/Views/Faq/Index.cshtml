@@ -4,38 +4,60 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<style>
+    body {
+        color: snow;
+        background-image: url("https://i.ibb.co/h10jKh0/novapoz.png");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Pitanje)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Odgovor)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Pitanje)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Odgovor)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    .button1 {
+        border: 1px solid #aaa;
+        text-decoration: none;
+        font-family: Arial;
+        color: black;
+        padding: 1px 6px;
+        font-size: 13px;
+        background: #eee;
+    }
+
+    .button1:hover {
+        background: #D0F5F4;
+    }
+    
+
+</style>
+<div class="text-center">
+    <h1>Faq</h1>
+</div>
+<div class="text-center">
+    <table>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <h2>
+                            @Html.DisplayFor(modelItem => item.Pitanje)
+                        </h2>
+                    </td>
+
+
+
+                </tr>
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Odgovor)
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+    <br />
+    <a asp-area="" asp-controller="Utisak" asp-action="Index" class="button1" style="background-color:gray" text-decoration: none>Utisci</a>
+</div>
+

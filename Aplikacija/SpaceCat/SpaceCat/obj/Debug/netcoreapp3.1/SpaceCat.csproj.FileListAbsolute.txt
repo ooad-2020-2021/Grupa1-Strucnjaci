@@ -214,3 +214,5 @@ C:\Users\Belma fax\Source\Repos\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\b
 C:\Users\Belma fax\Source\Repos\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
 C:\Users\Belma fax\Source\Repos\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
 C:\Users\Belma fax\Source\Repos\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+C:\Users\Belma fax\Source\Repos\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Faq\IndexOriginal.cshtml.g.cs
+C:\Users\Belma fax\Source\Repos\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Utisak\IndexOriginal.cshtml.g.cs
