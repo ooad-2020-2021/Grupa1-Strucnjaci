@@ -4,33 +4,42 @@
     ViewData["Title"] = "Index";
 }
 
-<style>
-    body {
-        color: snow;
-        background-image: url("https://i.ibb.co/h10jKh0/novapoz.png");
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-</style>
+<h1>Index</h1>
 
-<h1>Utisci</h1>
-
-
-
-<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
-
-    @foreach (var item in Model)
-    {
-        <div background-color: #F7EFED>
-            <div class="w3-row-padding w3-padding-16 w3-center">
-                <div class="w3-quarter">
-                    <h2>@Html.DisplayFor(model => item.Macka.ImeMacke)</h2>
-                    <h4>@Html.DisplayFor(model => item.Ocjena)</h4>
-                    <p>@Html.DisplayFor(model => item.Text)</p>
-                </div>
-            </div>
-        </div>
-    }
-</div>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Text)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ocjena)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <!--naknadno dodani setteri u model pa treba povezati sa bazom sve-->
+@foreach (var item in Model) {
+        <tr>
+            
+          @Html.DisplayFor(modelItem => item.Macka.ImeMacke)
+      
+            <td>
+                @Html.DisplayFor(modelItem => item.Text)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ocjena)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -19,11 +19,11 @@ namespace SpaceCat
 		[Required]
         public int ID { get; set; }
 		[Required]
-		public Macka Macka { get; }
+		public Macka Macka { get; set; }
 		[Required]
-		public string Text { get; }
+		public string Text { get; set; }
 		[Required]
-		public Ocjena Ocjena { get; }
+		public Ocjena Ocjena { get; set; }
         #endregion
     }
 }

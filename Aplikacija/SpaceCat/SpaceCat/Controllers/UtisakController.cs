@@ -54,7 +54,7 @@ namespace SpaceCat.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID")] Utisak utisak)
+        public async Task<IActionResult> Create([Bind("ID,Text,Ocjena")] Utisak utisak)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace SpaceCat.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID")] Utisak utisak)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Text,Ocjena")] Utisak utisak)
         {
             if (id != utisak.ID)
             {
