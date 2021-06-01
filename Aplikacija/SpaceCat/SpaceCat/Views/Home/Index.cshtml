@@ -2,16 +2,153 @@
     ViewData["Title"] = "Home Page";
 }
 <style>
-body {
-       color:snow;
-       background-image: url("https://i.ibb.co/h10jKh0/novapoz.png"); 
-       height: 100%; 
-       background-position: center; background-repeat: no-repeat; background-size: cover; }
+    body {
+        color: snow;
+        background-image: url("https://i.ibb.co/h10jKh0/novapoz.png");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr 2fr 3fr 3fr 2fr 2fr 2fr 1fr;
+        grid-template-rows: 0.8fr 0.1fr 1fr 0.5fr 0.5fr 0.5fr;
+       
+        /*
+        grid-template-areas:
+            ". . . spacecat-logo spacecat-logo spacecat-logo spacecat-logo  . . ."
+            ". . . . . slogan slogan slogan . . "
+            ". . macka macka macka macka . . ."
+            "button1 .  macka macka macka macka . . button6"
+            ". button2  macka macka macka macka . button5 ."
+            ". . button3 macka macka macka macka button4 . .";
+            */
+    }
+
+    .spacecat-logo {
+        grid-column: 2 / span 6;
+        grid-row: 1 / span 1;
+    }
+
+    .slogan {
+        grid-column: 6 / span 4;
+        grid-row: 2 / span 1;
+    }
+    .macka {
+        width: 100%;
+        grid-column: 3 / span 6;
+        grid-row: 2 / span 5;
+    }
+
+    .button1 {
+        grid-column: 2 / span 1;
+        grid-row: 4 / span 1;
+    }
+
+    .button2 {
+        grid-column: 3 / span 1;
+        grid-row: 5 / span 1;
+    }
+
+    .button3 {
+        grid-column: 4 / span 1;
+        grid-row: 6 / span 1;
+    }
+
+    .button4 {
+        grid-column: 7 / span 1;
+        grid-row: 6 / span 1;
+    }
+
+    .button5 {
+        grid-column: 8 / span 1;
+        grid-row: 5 / span 1;
+    }
+
+    .button6 {
+        grid-column: 9 / span 1;
+        grid-row: 4 / span 1;
+    }
+
+    .btn {
+        width: 10em;
+        flex: 1 1 auto;
+        margin: 1px;
+        padding: 5px;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: #000000;
+        /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        border-style: solid;
+        /*border-color:#000000;*/
+    }
+
+    .btn:hover {
+        background-position: right center; /* change the direction of the change here */
+    }
+
+    .btn-1  {
+        background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+    }
+
+    .btn-2 {
+        background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+    }
+
+    .btn-3 {
+        background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+    }
+
+    .btn-4 {
+        background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+    }
+
+    .btn-5 {
+        background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+    }
+
+    .btn-6 {
+        background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+    }
 </style>
 
-<div class="text-center">
-    <br />
-    <h2><b><i>Bezbjedno slanje ljubimaca u svemir</i></b></h2>
-    <p><i>Ne možete Vi, ali zato Vaša mačka može!</i></p>
+
+<div class="grid-container">
+    <div class="spacecat-logo">
+        <img style="height:15em" src="https://i.ibb.co/bBFyWZq/Log2o.png" />
+    </div>
+    <div class="slogan">
+        <h5><i>Ne možete Vi, ali zato Vaša mačka može!</i></h5>
+    </div>
+    <div class="macka">
+        <img style="height:45em" src="https://i.ibb.co/cxm5w4q/maca.png" />
+    </div>
+        <div class="button1">
+            <a asp-area="" asp-controller="Utisak" asp-action="Index" class="btn btn-1">Prijava</a>
+        </div>
+        <div class="button2">
+            <a asp-area="" asp-controller="Utisak" asp-action="Index"  class="btn btn-2">Registracija</a>
+        </div>
+        <div class="button3">
+            <a asp-area="" asp-controller="Utisak" asp-action="Index" class="btn btn-3">Naredni let</a>
+        </div>
+        <div class="button4">
+            <a asp-area="" asp-controller="Utisak" asp-action="Index" class="btn btn-4">FAQ</a>
+        </div>
+        <div class="button5">
+            <a asp-area="" asp-controller="Utisak" asp-action="Index" class="btn btn-5">Novosti</a>
+        </div>
+        <div class="button6">
+            <a asp-area="" asp-controller="Utisak" asp-action="Index" class="btn btn-6">Historija Letova</a>
+        </div>
+    
+
 </div>
-<img style="height:20em" src="https://i.ibb.co/bBFyWZq/Log2o.png" />
+
+
+
