@@ -433,3 +433,4 @@ C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCa
 C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\SpaceCat.pdb
 C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\SpaceCat.genruntimeconfig.cache
 C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Home\IndexOriginal.cshtml.g.cs
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Destinacija\IndexOrginal.cshtml.g.cs

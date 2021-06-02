@@ -4,44 +4,235 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<style>
+    body {
+        color: snow;
+        background-image: url("https://i.ibb.co/h10jKh0/novapoz.png");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Paket)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Naziv)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Slika)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Paket)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Naziv)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Slika)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    .grid-container {
+        margin:0px;
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 16fr 1fr;
+        grid-template-rows: 1fr 0.3fr 0.3fr 1fr 0.3fr 0.3fr 0.3fr 1fr 0.3fr;
+    }
+
+    .spacecat-logo {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 1;
+        margin: 0px;
+        font-size: 50px;
+        width="40%";
+    }
+
+    .naslov {
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 1;
+        margin: 0px;
+        font-size: 50px;
+    }
+
+    .tekst-free {
+        grid-column: 2 / span 1;
+        grid-row: 3 / span 1;
+        margin: 0px;
+        font-size: 30px;
+    }
+
+    .tabela-free-slike {
+        grid-column: 2 / span 1;
+        grid-row: 4 / span 1;
+        margin: 0px;
+    }
+
+    .tabela-free-nazivi {
+        grid-column: 2 / span 1;
+        grid-row: 5 / span 1;
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    .button1 {
+        grid-column: 3 / span 1;
+        grid-row: 6 / span 1;
+        margin: 0px;
+    }
+
+    .tekst-premium {
+        grid-column: 2 / span 1;
+        grid-row: 7 / span 1;
+        margin: 0px;
+        font-size: 30px;
+    }
+
+    .tabela-premium-slike {
+        grid-column: 2 / span 1;
+        grid-row: 8 / span 1;
+        margin: 0px;
+    }
+
+    .tabela-premium-nazivi {
+        grid-column: 2 / span 1;
+        grid-row: 9 / span 1;
+        margin: 0px;
+        font-size:20px;
+    }
+
+    .planeta-slika {
+        width: 11em;
+        height: 10em;
+        display: block;
+        padding: 5px;
+        margin-right: 4px;
+        margin-bottom: 10px;
+        line-height: 1px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        transition: all .2s ease-in-out;
+    }
+
+    .planeta-naziv {
+        width: 12em;
+        margin-right: 4px;
+        color: #fff;
+        height: 10px;
+    }
+
+    
+
+    .btn {
+        width: 10em;
+        flex: 1 1 auto;
+        margin: 1px;
+        padding: 5px;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: #000000;
+        /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        border-style: solid;
+        /*border-color:#000000;*/
+    }
+
+        .btn:hover {
+            background-position: right center; /* change the direction of the change here */
+        }
+
+    .btn-1 {
+        background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+    }
+</style>
+
+
+<div class="grid-container">
+    <div class="spacecat-logo">
+        <img style="height:3em" src="https://i.ibb.co/bBFyWZq/Log2o.png" />
+    </div>
+    <div class="naslov text-center">
+        <h1>Destinacije</h1>
+    </div>
+
+
+
+
+    <!--
+        <h1>Index</h1>
+
+        <p>
+            <a asp-action="Create">dodaj</a>
+        </p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Paket)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Naziv)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Slika)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+      -->
+
+    <h4 class="tekst-free">Free</h4>
+    <table class="tabela-free-slike">
+        <tbody>
+            <tr>
+                @foreach (var item in Model)
+                {
+                    Paket vrsta = item.Paket; if (vrsta == Paket.FREE)
+                    {
+                        <th>
+                            <img class="planeta-slika" src=@Html.DisplayFor(modelItem => item.Slika) />
+                        </th>
+                    }
+                }
+            </tr>
+        </tbody>
+    </table>
+    <table class="tabela-free-nazivi">
+        <tbody>
+            <tr>
+                @foreach (var item in Model)
+                {
+                    Paket vrsta = item.Paket; if (vrsta == Paket.FREE)
+                    {
+                        <th>
+                            <p class="planeta-naziv">
+                                @Html.DisplayFor(modelItem => item.Naziv)
+                            </p>
+                        </th>
+                    }
+                }
+            </tr>
+        </tbody>
+    </table>
+    <div class="button1">
+        <a asp-area="" asp-controller="Utisak" asp-action="Index" class="btn btn-1 style="background-color:gray" text-decoration: none>Sacuvaj izbor</a>
+    </div>
+    <h4 class="tekst-premium">Premium</h4>
+    <table class="tabela-premium-slike">
+        <tbody>
+            <tr>
+                @foreach (var item in Model)
+                {
+                    Paket vrsta = item.Paket; if (vrsta == Paket.PREMIUM)
+                    {
+                        <th>
+                            <img class="planeta-slika" src=@Html.DisplayFor(modelItem => item.Slika) />
+                        </th>
+                    }
+                }
+            </tr>
+        </tbody>
+    </table>
+    <table class="tabela-premium-nazivi">
+        <tbody>
+            <tr>
+                @foreach (var item in Model)
+                {
+                    Paket vrsta = item.Paket; if (vrsta == Paket.PREMIUM)
+                    {
+                        <th>
+                            <p class="planeta-naziv">
+                                @Html.DisplayFor(modelItem => item.Naziv)
+                            </p>
+                        </th>
+                    }
+                }
+            </tr>
+        </tbody>
+    </table>
+</div>
+
