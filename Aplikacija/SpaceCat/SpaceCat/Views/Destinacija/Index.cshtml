@@ -238,12 +238,6 @@
 
 <!--
 <tr class="planete-premium"
-    @foreach (var item in Model) { Paket vrsta = item.Paket; if (vrsta == Paket.PREMIUM) { <th>
-              @Html.DisplayFor(modelItem => item.Naziv)
-            </th>
-            <th>
-              <img src=@Html.DisplayFor(modelItem => item.Slika) />
-            </th>
             <th>
                 <a asp-action="Edit" asp-route-id="@item.ID" class="ikonica">
                     <img src="https://i.ibb.co/KxfvpMr/uredi.png" />
