@@ -97,16 +97,16 @@
         <h1>FAQ</h1>
     </div>
     <div class="pitanje-i-odgovor  text-left">
-            @foreach (var item in Model)
-            {
-                <h2>@Html.DisplayFor(modelItem => item.Pitanje)</h2>
-                <h5>@Html.DisplayFor(modelItem => item.Odgovor)</h5>
-                <br />
+        @foreach (var item in Model)
+        {
+            <h2>@Html.DisplayFor(modelItem => item.Pitanje)</h2>
+            <h5>@Html.DisplayFor(modelItem => item.Odgovor)</h5>
+            <br />
 
-            }
+        }
     </div>
     <div class="button1">
-        <a asp-area="" asp-controller="Utisak" asp-action="Index" class="btn btn-1 style="background-color:gray" text-decoration: none>Utisci</a>
+        <a asp-area="" asp-controller="Utisak" asp-action="Index" class="btn btn-1" style="background-color:gray" text-decoration: none>Utisci</a>
     </div>
 </div>
 
