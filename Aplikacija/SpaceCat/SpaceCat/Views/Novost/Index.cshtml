@@ -1,10 +1,10 @@
-﻿@model IEnumerable<SpaceCat.Novost>
-
-    @{
+﻿@using SpaceCat.Controllers
+@model IEnumerable<SpaceCat.Novost>
+@{
     ViewData["Title"] = "Index";
-    }
+}
 
-    <style>
+<style>
         body {
             color: snow;
             background-image: url("https://i.ibb.co/h10jKh0/novapoz.png");
@@ -48,17 +48,18 @@
             text-align: center;
         }
     </style>
-    <h1 id="naziv">Novosti</h1>
+<h1 id="naziv">Novosti</h1>
 
-    <p id="tekst_dodaj">
-        <a id="dodaj" asp-action="Create">Dodaj novost</a>
-    </p>
-    <table class="table" id="bijelitekst">
+<p id="tekst_dodaj">
+    <a id="dodaj" asp-action="Create">Dodaj novost</a>
+</p>
 
-        <tbody>
+<table class="table" id="bijelitekst">
+
+    <tbody>
         
-            @foreach (var item in Model)
-        {
+    @foreach (var item in Model)
+    {
         <tr id="naslov">
             <td>
                 @Html.DisplayFor(modelItem => item.Naslov)
@@ -76,5 +77,9 @@
         </tr>
     }
             
-            </tbody>
-        </table>
+    </tbody>
+</table>
+
+
+
+

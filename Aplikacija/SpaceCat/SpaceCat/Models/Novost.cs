@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SpaceCat
 {
-	public class Novost {
+	public class Novost : IPomocAnketeNovostTip {
         #region Konstruktori
         public Novost() { }
 		public Novost(string naslov, string text, DateTime vrijemeObjave, List<string> slike, List<Komentar> komentari)

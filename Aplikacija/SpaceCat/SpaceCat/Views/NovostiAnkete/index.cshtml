@@ -1,0 +1,10 @@
+@model NovostiAnketeModel
+@foreach (var novost in Model.Novosti)
+{
+    <h1>@novost.Naslov</h1>
+    <p>@novost.Text</p>
+}
+@foreach (var anketa in Model.Ankete)
+{
+    <h1>@anketa.Text</h1>
+}

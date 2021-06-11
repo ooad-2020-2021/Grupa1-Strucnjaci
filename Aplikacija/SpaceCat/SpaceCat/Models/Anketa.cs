@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SpaceCat
 {
-	public class Anketa
+	public class Anketa : IPomocAnketeNovostTip
 	{
 		#region Konstruktor
 		public Anketa() { }
