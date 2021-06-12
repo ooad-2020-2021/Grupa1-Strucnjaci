@@ -49,33 +49,37 @@
     }
 </style>
 <h1 id="naziv">Novosti</h1>
+@if (User.IsInRole("admin"))
+{
+    <p id="tekst_dodaj">
+        <a id="dodaj" asp-action="Create">Dodaj novost</a>
+    </p>
+}
+    <table class="table" id="bijelitekst">
 
-<p id="tekst_dodaj">
-    <a id="dodaj" asp-action="Create">Dodaj novost</a>
-</p>
+        <tbody>
 
-<table class="table" id="bijelitekst">
+            @foreach (var item in Model)
+            {
+                <tr id="naslov">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Naslov)
+                    </td>
+                </tr>
+                <tr id="tekst">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Text)
+                    </td>
+                    @if (User.IsInRole("admin"))
+                    {
+                        <td id="opcije">
+                            <a id="e" asp-action="Edit" asp-route-id="@item.ID">Uredi</a> |
+                            <a id="det" asp-action="Details" asp-route-id="@item.ID">Detalji</a> |
+                            <a id="del" asp-action="Delete" asp-route-id="@item.ID">Obrisi</a>
+                        </td>
+                    }
+                </tr>
+            }
 
-    <tbody>
-
-        @foreach (var item in Model)
-        {
-            <tr id="naslov">
-                <td>
-                    @Html.DisplayFor(modelItem => item.Naslov)
-                </td>
-            </tr>
-            <tr id="tekst">
-                <td>
-                    @Html.DisplayFor(modelItem => item.Text)
-                </td>
-                <td id="opcije">
-                    <a id="e" asp-action="Edit" asp-route-id="@item.ID">Uredi</a> |
-                    <a id="det" asp-action="Details" asp-route-id="@item.ID">Detalji</a> |
-                    <a id="del" asp-action="Delete" asp-route-id="@item.ID">Obrisi</a>
-                </td>
-            </tr>
-        }
-
-    </tbody>
-</table>
+        </tbody>
+    </table>
