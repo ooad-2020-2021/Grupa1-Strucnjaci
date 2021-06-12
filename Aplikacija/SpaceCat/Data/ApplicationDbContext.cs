@@ -23,5 +23,21 @@ namespace SpaceCat.Data
         public DbSet<SpaceCat.Utisak> Utisak { get; set; }
         public DbSet<SpaceCat.Putovanje> Putovanje { get; set; }
         public DbSet<SpaceCat.SlikaNovosti> SlikaNovosti { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Anketa>().ToTable("Anketa");
+            modelBuilder.Entity<Opcija>().ToTable("Opcija");
+            modelBuilder.Entity<Destinacija>().ToTable("Destinacija");
+            modelBuilder.Entity<Faq>().ToTable("Faq");
+            modelBuilder.Entity<Komentar>().ToTable("Komentar");
+            modelBuilder.Entity<Macka>().ToTable("Macka");
+            modelBuilder.Entity<Novost>().ToTable("Novost");
+            modelBuilder.Entity<Putovanje>().ToTable("Putovanje");
+            modelBuilder.Entity<SlikaNovosti>().ToTable("SlikaNovosti");
+            modelBuilder.Entity<Utisak>().ToTable("Utisak");
+        }
     }
+
 }
