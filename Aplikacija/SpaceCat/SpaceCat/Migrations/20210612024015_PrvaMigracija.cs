@@ -14,7 +14,8 @@ namespace SpaceCat.Migrations
                 {
                     ID = table.Column<int>(nullable: false)
                         .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
-                    Text = table.Column<string>(nullable: false)
+                    Text = table.Column<string>(nullable: false),
+                    mackeKojeSuUcestvovale = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -57,23 +58,12 @@ namespace SpaceCat.Migrations
                     ID = table.Column<int>(nullable: false)
                         .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
                     Naslov = table.Column<string>(nullable: false),
-                    Text = table.Column<string>(nullable: false)
+                    Text = table.Column<string>(nullable: false),
+                    VrijemeObjave = table.Column<DateTime>(nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Novost", x => x.ID);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Utisak",
-                columns: table => new
-                {
-                    ID = table.Column<int>(nullable: false)
-                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Utisak", x => x.ID);
                 });
 
             migrationBuilder.CreateTable(
@@ -117,7 +107,8 @@ namespace SpaceCat.Migrations
                         .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
                     VrijemePolaska = table.Column<DateTime>(nullable: true),
                     DestinacijaID = table.Column<int>(nullable: true),
-                    KrajPutovanja = table.Column<DateTime>(nullable: true)
+                    KrajPutovanja = table.Column<DateTime>(nullable: true),
+                    mackeZaPutovanje = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -158,6 +149,27 @@ namespace SpaceCat.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Utisak",
+                columns: table => new
+                {
+                    ID = table.Column<int>(nullable: false)
+                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
+                    MackaID = table.Column<int>(nullable: false),
+                    Text = table.Column<string>(nullable: false),
+                    Ocjena = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Utisak", x => x.ID);
+                    table.ForeignKey(
+                        name: "FK_Utisak_Macka_MackaID",
+                        column: x => x.MackaID,
+                        principalTable: "Macka",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_Komentar_MackaID",
                 table: "Komentar",
@@ -177,6 +189,11 @@ namespace SpaceCat.Migrations
                 name: "IX_Putovanje_DestinacijaID",
                 table: "Putovanje",
                 column: "DestinacijaID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Utisak_MackaID",
+                table: "Utisak",
+                column: "MackaID");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -197,10 +214,10 @@ namespace SpaceCat.Migrations
                 name: "Utisak");
 
             migrationBuilder.DropTable(
-                name: "Macka");
+                name: "Novost");
 
             migrationBuilder.DropTable(
-                name: "Novost");
+                name: "Macka");
 
             migrationBuilder.DropTable(
                 name: "Destinacija");

@@ -9,14 +9,14 @@ using SpaceCat.Data;
 namespace SpaceCat.Migrations
 {
     [DbContext(typeof(SpaceCatContext))]
-    [Migration("20210512094008_PrvaMigracija")]
+    [Migration("20210612024015_PrvaMigracija")]
     partial class PrvaMigracija
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.13")
+                .HasAnnotation("ProductVersion", "3.1.16")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             modelBuilder.Entity("SpaceCat.Anketa", b =>
@@ -27,6 +27,9 @@ namespace SpaceCat.Migrations
 
                     b.Property<string>("Text")
                         .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("mackeKojeSuUcestvovale")
                         .HasColumnType("text");
 
                     b.HasKey("ID");
@@ -181,6 +184,9 @@ namespace SpaceCat.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<DateTime>("VrijemeObjave")
+                        .HasColumnType("datetime");
+
                     b.HasKey("ID");
 
                     b.ToTable("Novost");
@@ -201,6 +207,9 @@ namespace SpaceCat.Migrations
                     b.Property<DateTime?>("VrijemePolaska")
                         .HasColumnType("datetime");
 
+                    b.Property<string>("mackeZaPutovanje")
+                        .HasColumnType("text");
+
                     b.HasKey("ID");
 
                     b.HasIndex("DestinacijaID");
@@ -214,7 +223,19 @@ namespace SpaceCat.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<int>("MackaID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Ocjena")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.HasKey("ID");
+
+                    b.HasIndex("MackaID");
 
                     b.ToTable("Utisak");
                 });
@@ -246,6 +267,15 @@ namespace SpaceCat.Migrations
                     b.HasOne("SpaceCat.Destinacija", "Destinacija")
                         .WithMany()
                         .HasForeignKey("DestinacijaID");
+                });
+
+            modelBuilder.Entity("SpaceCat.Utisak", b =>
+                {
+                    b.HasOne("SpaceCat.Macka", "Macka")
+                        .WithMany()
+                        .HasForeignKey("MackaID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

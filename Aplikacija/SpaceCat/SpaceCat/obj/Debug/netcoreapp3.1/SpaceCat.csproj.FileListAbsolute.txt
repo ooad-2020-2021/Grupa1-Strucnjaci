@@ -700,3 +700,6 @@ C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\
 C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Putovanje\Edit.cshtml.g.cs
 C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Putovanje\Index - Original.cshtml.g.cs
 C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Putovanje\Index.cshtml.g.cs
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Anketa\Index - Original.cshtml.g.cs
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Novost\Index - Original.cshtml.g.cs
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Putovanje\Index - Original.cshtml.g.cs
