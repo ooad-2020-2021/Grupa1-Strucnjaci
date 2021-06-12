@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "0y0gwdqDC4LsVazCl8ExBEkwd14er3p8xrbhpB+xhwULvIWO+vBmLAOA+ik/CMy5wLDPt3vSfo63a7HAmFTvbw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Belma fax\\Source\\Repos\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat.csproj",
+=======
+  "dgSpecHash": "WLTHVfZzAS1XZ59HIh6H6GkDVpM6KxJ69IrMtIakMlhEWzmYiSl7RDlWVhV2X+ZdcvU9EL049rn0MYzRQQUrUA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hadija\\Documents\\GitHub\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat.csproj",
+>>>>>>> 0bf17adf68cfe72fed29273162888a88b0c5a66c
   "expectedPackageFiles": [
     "C:\\Users\\Belma fax\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.13\\microsoft.aspnetcore.cryptography.internal.3.1.13.nupkg.sha512",
     "C:\\Users\\Belma fax\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.13\\microsoft.aspnetcore.cryptography.keyderivation.3.1.13.nupkg.sha512",
