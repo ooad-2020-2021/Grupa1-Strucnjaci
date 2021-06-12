@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zujUBZGh5kk02U3/0ny287AUao9hbfz7B1vvuxySHw27YUWKltc4uZMHbhf7I9vEl+aVMuEUCfnL4y4gltpUcg==",
+  "dgSpecHash": "Bl/j+/BSqttjgTJkPlLmzVdj+p/jRc6EAeE9IuGqaOYSiNWbcMqWGzfJbD4ZZdyPOreOhEr2HHv2REUghYUKRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hadija\\Source\\Repos\\ooad-2020-2021\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
+  "projectFilePath": "C:\\Users\\hadija\\source\\repos\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hadija\\.nuget\\packages\\bootstrap\\4.5.2\\bootstrap.4.5.2.nupkg.sha512",
     "C:\\Users\\hadija\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",

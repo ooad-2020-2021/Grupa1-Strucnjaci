@@ -9965,11 +9965,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hadija\\Source\\Repos\\ooad-2020-2021\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
+      "projectUniqueName": "C:\\Users\\hadija\\source\\repos\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
       "projectName": "SpaceCat",
-      "projectPath": "C:\\Users\\hadija\\Source\\Repos\\ooad-2020-2021\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
+      "projectPath": "C:\\Users\\hadija\\source\\repos\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
       "packagesPath": "C:\\Users\\hadija\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hadija\\Source\\Repos\\ooad-2020-2021\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\obj\\",
+      "outputPath": "C:\\Users\\hadija\\source\\repos\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hadija\\AppData\\Roaming\\NuGet\\NuGet.Config",
