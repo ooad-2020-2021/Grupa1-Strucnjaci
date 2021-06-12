@@ -1,5 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    
 }
 <style>
     body {
@@ -129,20 +130,20 @@
         <img style="height:45em" src="https://i.ibb.co/cxm5w4q/maca.png" />
     </div>
     <div class="button1">
-        <a asp-area="" asp-controller="Utisak" asp-action="Index" class="btn btn-1">Prijava</a>
+        <a class="btn btn-1" asp-area="Identity" asp-page="/Account/Login">Login</a>
     </div>
     <div class="button2">
-        <a asp-area="" asp-controller="Utisak" asp-action="Index" class="btn btn-2">Registracija</a>
+        <a class="btn btn-2" asp-area="Identity" asp-page="/Account/Register">Registracija</a>
     </div>
     <div class="button3">
         <a asp-area="" asp-controller="Putovanje" asp-action="Index" class="btn btn-3">Naredni let</a>
     </div>
     <div class="button4">
-        <a asp-area="" asp-controller="Putovanje" asp-action="Index" class="btn btn-4">FAQ</a>
+        <a asp-area="" asp-controller="Faq" asp-action="Index" class="btn btn-4">FAQ</a>
     </div>
 
     <div class="button5">
-        <a asp-area="" asp-controller="Utisak" asp-action="Index" class="btn btn-5">Novosti</a>
+        <a asp-area="" asp-controller="Novost" asp-action="Index" class="btn btn-5">Novosti</a>
     </div>
     <div class="button6">
         <a asp-area="" asp-controller="Utisak" asp-action="Index" class="btn btn-6">Historija Letova</a>
