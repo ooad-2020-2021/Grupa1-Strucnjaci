@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -24,7 +25,7 @@ namespace SpaceCat.Controllers
         {
             return View(await _context.Novost.ToListAsync());
         }
-
+        [Authorize(Roles = "admin")]
         // GET: Novost/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -42,13 +43,13 @@ namespace SpaceCat.Controllers
 
             return View(novost);
         }
-
+        [Authorize(Roles = "admin")]
         // GET: Novost/Create
         public IActionResult Create()
         {
             return View();
         }
-
+        [Authorize(Roles = "admin")]
         // POST: Novost/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -64,7 +65,7 @@ namespace SpaceCat.Controllers
             }
             return View(novost);
         }
-
+        [Authorize(Roles = "admin")]
         // GET: Novost/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -80,7 +81,7 @@ namespace SpaceCat.Controllers
             }
             return View(novost);
         }
-
+        [Authorize(Roles = "admin")]
         // POST: Novost/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -115,7 +116,7 @@ namespace SpaceCat.Controllers
             }
             return View(novost);
         }
-
+        [Authorize(Roles = "admin")]
         // GET: Novost/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
@@ -133,7 +134,7 @@ namespace SpaceCat.Controllers
 
             return View(novost);
         }
-
+        [Authorize(Roles = "admin")]
         // POST: Novost/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
