@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceCat", "SpaceCat\SpaceCat.csproj", "{6A8C75BD-BDA8-44A0-B972-73FD1E026474}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceCat", "SpaceCat.csproj", "{97A4F79B-5285-46B8-9E05-9BE27B6F5E37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6A8C75BD-BDA8-44A0-B972-73FD1E026474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A8C75BD-BDA8-44A0-B972-73FD1E026474}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A8C75BD-BDA8-44A0-B972-73FD1E026474}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A8C75BD-BDA8-44A0-B972-73FD1E026474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A4F79B-5285-46B8-9E05-9BE27B6F5E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A4F79B-5285-46B8-9E05-9BE27B6F5E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A4F79B-5285-46B8-9E05-9BE27B6F5E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A4F79B-5285-46B8-9E05-9BE27B6F5E37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1884C78-6E68-420B-9916-96FDD34747AE}
 	EndGlobalSection
 EndGlobal
