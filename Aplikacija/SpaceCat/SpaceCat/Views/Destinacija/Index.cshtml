@@ -77,8 +77,6 @@
     .tabela-premium-nazivi {
         grid-column: 2 / span 1;
         grid-row: 9 / span 1;
-        margin: 0px;
-        font-size: 20px;
     }
 
     .planeta-slika {
@@ -95,11 +93,19 @@
         transition: all .2s ease-in-out;
     }
 
-    .planeta-naziv {
-        width: 12em;
+    ul#ispod-planete li {
+        width: 11em;
+        display: inline;
+    }
+
+    ul#ispod-planete p {
         margin-right: 4px;
-        color: #fff;
-        height: 10px;
+        width: 55%;
+    }
+
+    ul#ispod-planete img {
+        margin-right: 4px;
+        width: 13%;
     }
 
 
@@ -150,16 +156,16 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th>
+                    <td>
                         @Html.DisplayNameFor(model => model.Paket)
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         @Html.DisplayNameFor(model => model.Naziv)
-                    </th>
-                    <th>
+                    </td>
+                    <td>
                         @Html.DisplayNameFor(model => model.Slika)
-                    </th>
-                    <th></th>
+                    </td>
+                    <td></td>
                 </tr>
             </thead>
       -->
@@ -172,9 +178,9 @@
                 {
                     Paket vrsta = item.Paket; if (vrsta == Paket.FREE)
                     {
-                        <th>
+                        <td>
                             <img class="planeta-slika" src=@Html.DisplayFor(modelItem => item.Slika) />
-                        </th>
+                        </td>
                     }
                 }
             </tr>
@@ -187,11 +193,12 @@
                 {
                     Paket vrsta = item.Paket; if (vrsta == Paket.FREE)
                     {
-                        <th>
-                            <p class="planeta-naziv">
-                                @Html.DisplayFor(modelItem => item.Naziv)
-                            </p>
-                        </th>
+                    <td>
+                            <p>
+                                    @Html.DisplayFor(modelItem => item.Naziv)
+                                </p>
+                            
+                </td>
                     }
                 }
             </tr>
@@ -208,9 +215,9 @@
                 {
                     Paket vrsta = item.Paket; if (vrsta == Paket.PREMIUM)
                     {
-                        <th>
+                        <td>
                             <img class="planeta-slika" src=@Html.DisplayFor(modelItem => item.Slika) />
-                        </th>
+                        </td>
                     }
                 }
             </tr>
@@ -223,11 +230,30 @@
                 {
                     Paket vrsta = item.Paket; if (vrsta == Paket.PREMIUM)
                     {
-                        <th>
-                            <p class="planeta-naziv">
-                                @Html.DisplayFor(modelItem => item.Naziv)
-                            </p>
-                        </th>
+                    <td>
+                       <ul id="ispod-planete">
+                        <li>
+                            <p>@Html.DisplayFor(modelItem => item.Naziv)</p>
+                        </li>
+                        <li>
+                            <a asp-action="Edit" asp-route-id="@item.ID" class="ikonica">
+                                <img src="https://i.ibb.co/KxfvpMr/uredi.png" />
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a asp-action="Details" asp-route-id="@item.ID" class="ikonica">
+                                <img src="https://i.ibb.co/42bdSZs/detalji.png" />
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a asp-action="Delete" asp-route-id="@item.ID" class="ikonica">
+                                <img src="https://i.ibb.co/fYw7rdJ/kanta.png" />
+                            </a>
+                        </li>
+                       </ul>
+                  </td>
                     }
                 }
             </tr>

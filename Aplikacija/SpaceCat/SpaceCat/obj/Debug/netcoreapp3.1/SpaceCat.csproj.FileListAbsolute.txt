@@ -675,3 +675,25 @@ C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\
 C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\NovostiAnkete\index.cshtml.g.cs
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\NovostiAnkete\index.cshtml.g.cs
