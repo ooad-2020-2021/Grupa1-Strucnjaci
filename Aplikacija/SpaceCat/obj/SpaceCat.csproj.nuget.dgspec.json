@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hadija\\source\\repos\\proba\\SpaceCat\\SpaceCat.csproj": {}
+    "C:\\Users\\hadija\\Documents\\GitHub\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hadija\\source\\repos\\proba\\SpaceCat\\SpaceCat.csproj": {
+    "C:\\Users\\hadija\\Documents\\GitHub\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hadija\\source\\repos\\proba\\SpaceCat\\SpaceCat.csproj",
+        "projectUniqueName": "C:\\Users\\hadija\\Documents\\GitHub\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat.csproj",
         "projectName": "SpaceCat",
-        "projectPath": "C:\\Users\\hadija\\source\\repos\\proba\\SpaceCat\\SpaceCat.csproj",
+        "projectPath": "C:\\Users\\hadija\\Documents\\GitHub\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat.csproj",
         "packagesPath": "C:\\Users\\hadija\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hadija\\source\\repos\\proba\\SpaceCat\\obj\\",
+        "outputPath": "C:\\Users\\hadija\\Documents\\GitHub\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hadija\\AppData\\Roaming\\NuGet\\NuGet.Config",

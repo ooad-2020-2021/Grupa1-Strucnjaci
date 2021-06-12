@@ -58,56 +58,57 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.KorisnickoIme)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Lozinka)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ImeVlasnika)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ImeMacke)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Drzava)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Pol)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DobMacke)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ZdravaMacka)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Slika)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Paket)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Odabrana)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.OdabranaRanije)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.VjerovatnocaOdabira)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Kompetentna)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.KorisnickoIme)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Lozinka)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImeVlasnika)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImeMacke)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Drzava)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pol)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DobMacke)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ZdravaMacka)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Slika)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Paket)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Odabrana)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OdabranaRanije)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VjerovatnocaOdabira)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Kompetentna)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

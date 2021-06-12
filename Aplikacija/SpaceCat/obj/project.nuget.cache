@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k2cp1zrsz/QywR8O5gc0NpGU9JGnutb4e4Z2jQlAG0pd/dsCVQCo25JFYiW2YyxXuks1Bu34fTdyhDOZOJvn8g==",
+  "dgSpecHash": "WLTHVfZzAS1XZ59HIh6H6GkDVpM6KxJ69IrMtIakMlhEWzmYiSl7RDlWVhV2X+ZdcvU9EL049rn0MYzRQQUrUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hadija\\source\\repos\\proba\\SpaceCat\\SpaceCat.csproj",
+  "projectFilePath": "C:\\Users\\hadija\\Documents\\GitHub\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hadija\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.13\\microsoft.aspnetcore.cryptography.internal.3.1.13.nupkg.sha512",
     "C:\\Users\\hadija\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.13\\microsoft.aspnetcore.cryptography.keyderivation.3.1.13.nupkg.sha512",
