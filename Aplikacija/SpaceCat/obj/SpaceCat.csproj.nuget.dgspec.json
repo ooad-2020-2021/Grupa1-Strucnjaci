@@ -1,19 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\Belma fax\\Source\\Repos\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Belma fax\\Source\\Repos\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Belma fax\\Source\\Repos\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat.csproj",
-        "projectName": "SpaceCat",
-        "projectPath": "C:\\Users\\Belma fax\\Source\\Repos\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat.csproj",
-        "packagesPath": "C:\\Users\\Belma fax\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Belma fax\\Source\\Repos\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\obj\\",
-=======
     "C:\\Users\\hadija\\Documents\\GitHub\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat.csproj": {}
   },
   "projects": {
@@ -25,10 +12,9 @@
         "projectPath": "C:\\Users\\hadija\\Documents\\GitHub\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat.csproj",
         "packagesPath": "C:\\Users\\hadija\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\hadija\\Documents\\GitHub\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\obj\\",
->>>>>>> 0bf17adf68cfe72fed29273162888a88b0c5a66c
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Belma fax\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hadija\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
