@@ -23,6 +23,7 @@ namespace SpaceCat
         public Destinacija Destinacija { get; set; }
         [DataType(DataType.Date)]
         public DateTime? KrajPutovanja { get; set; }
+        public string mackeZaPutovanje { get; set; }
         #endregion
         #region Konstruktori
         public Putovanje() { }

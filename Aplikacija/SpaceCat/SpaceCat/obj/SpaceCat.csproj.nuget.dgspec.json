@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hadija\\Desktop\\ooad-2020-2021-kopija\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj": {}
+    "C:\\Users\\Belma fax\\RiderProjects\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hadija\\Desktop\\ooad-2020-2021-kopija\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj": {
+    "C:\\Users\\Belma fax\\RiderProjects\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hadija\\Desktop\\ooad-2020-2021-kopija\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
+        "projectUniqueName": "C:\\Users\\Belma fax\\RiderProjects\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
         "projectName": "SpaceCat",
-        "projectPath": "C:\\Users\\hadija\\Desktop\\ooad-2020-2021-kopija\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
-        "packagesPath": "C:\\Users\\hadija\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hadija\\Desktop\\ooad-2020-2021-kopija\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\obj\\",
+        "projectPath": "C:\\Users\\Belma fax\\RiderProjects\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
+        "packagesPath": "C:\\Users\\Belma fax\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Belma fax\\RiderProjects\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hadija\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Belma fax\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

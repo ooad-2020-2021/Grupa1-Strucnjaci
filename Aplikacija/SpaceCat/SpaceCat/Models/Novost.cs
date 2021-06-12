@@ -28,7 +28,7 @@ namespace SpaceCat
 		public string Text { get; set; }
 		[Required]
 		[DataType(DataType.Date)]
-		public DateTime VrijemeObjave { get; }
+		public DateTime VrijemeObjave { get; set;}
 		[NotMapped]
 		public List<string> Slike { get; set; }
 		[NotMapped]

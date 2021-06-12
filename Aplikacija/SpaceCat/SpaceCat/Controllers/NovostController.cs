@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -54,7 +54,7 @@ namespace SpaceCat.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Naslov,Text")] Novost novost)
+        public async Task<IActionResult> Create([Bind("ID,Naslov,Text,VrijemeObjave")] Novost novost)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace SpaceCat.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Naslov,Text")] Novost novost)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Naslov,Text,VrijemeObjave")] Novost novost)
         {
             if (id != novost.ID)
             {

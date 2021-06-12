@@ -1,4 +1,4 @@
-﻿@model IEnumerable<SpaceCat.Anketa>
+@model IEnumerable<SpaceCat.Anketa>
 
 @{
     ViewData["Title"] = "Index";
@@ -11,7 +11,7 @@
 </p>
 <table class="table">
     <tbody>
-@foreach (var item in Model) {
+    @foreach (var item in Model) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Text)
@@ -22,7 +22,6 @@
                 <a asp-action="Delete" asp-route-id="@item.ID">Obrisi</a>
             </td>
         </tr>
-}
+    }
     </tbody>
 </table>
-

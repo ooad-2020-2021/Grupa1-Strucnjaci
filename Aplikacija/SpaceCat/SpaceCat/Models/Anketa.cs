@@ -28,7 +28,7 @@ namespace SpaceCat
 		[Required]
 		[NotMapped]
 		public Dictionary<string, double> OpcijeIGlasovi { get; set; }
-
+		public string mackeKojeSuUcestvovale { get; set; }
         #endregion
 
         #region Metode

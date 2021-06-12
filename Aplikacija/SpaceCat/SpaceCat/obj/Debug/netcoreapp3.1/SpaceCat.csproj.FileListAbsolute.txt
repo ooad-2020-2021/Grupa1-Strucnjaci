@@ -595,11 +595,6 @@ C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\
 C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\SpaceCat.TagHelpers.output.cache
 C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\SpaceCat.RazorCoreGenerate.cache
 C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Anketa\Create.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Anketa\Delete.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Anketa\Details.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Anketa\Edit.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Anketa\Index.cshtml.g.cs
 C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Destinacija\Create.cshtml.g.cs
 C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Destinacija\Delete.cshtml.g.cs
 C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Destinacija\Details.cshtml.g.cs
@@ -615,26 +610,6 @@ C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\
 C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Home\IndexOriginal.cshtml.g.cs
 C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Komentar\Create.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Komentar\Delete.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Komentar\Details.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Komentar\Edit.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Komentar\Index.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Macka\Create.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Macka\Delete.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Macka\Details.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Macka\Edit.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Macka\Index.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Novost\Create.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Novost\Delete.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Novost\Details.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Novost\Edit.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Novost\Index.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Putovanje\Create.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Putovanje\Delete.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Putovanje\Details.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Putovanje\Edit.cshtml.g.cs
-C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Putovanje\Index.cshtml.g.cs
 C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
@@ -697,3 +672,31 @@ C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCa
 C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\NovostiAnkete\index.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Anketa\Create.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Anketa\Delete.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Anketa\Details.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Anketa\Edit.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Anketa\Index - Original.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Anketa\Index.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Komentar\Create.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Komentar\Delete.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Komentar\Details.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Komentar\Edit.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Komentar\Index.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Macka\Create.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Macka\Delete.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Macka\Details.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Macka\Edit.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Macka\Index.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Novost\Create.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Novost\Delete.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Novost\Details.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Novost\Edit.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Novost\Index - Original.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Novost\Index.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Putovanje\Create.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Putovanje\Delete.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Putovanje\Details.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Putovanje\Edit.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Putovanje\Index - Original.cshtml.g.cs
+C:\Users\Belma fax\RiderProjects\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Putovanje\Index.cshtml.g.cs

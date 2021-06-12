@@ -1,4 +1,4 @@
-﻿@model SpaceCat.Putovanje
+@model SpaceCat.Putovanje
 
 @{
     ViewData["Title"] = "Edit";
@@ -24,6 +24,11 @@
                 <span asp-validation-for="KrajPutovanja" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="mackeZaPutovanje" class="control-label"></label>
+                <input asp-for="mackeZaPutovanje" class="form-control" />
+                <span asp-validation-for="mackeZaPutovanje" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
@@ -34,6 +39,3 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}

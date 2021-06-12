@@ -1,4 +1,4 @@
-﻿@model SpaceCat.Novost
+@model SpaceCat.Novost
 
 @{
     ViewData["Title"] = "Create";
@@ -23,6 +23,11 @@
                 <span asp-validation-for="Text" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="VrijemeObjave" class="control-label"></label>
+                <input asp-for="VrijemeObjave" class="form-control" />
+                <span asp-validation-for="VrijemeObjave" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
@@ -33,6 +38,3 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
