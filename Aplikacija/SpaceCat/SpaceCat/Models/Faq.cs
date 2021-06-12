@@ -5,6 +5,8 @@ namespace SpaceCat
 {
 	public class Faq
 	{
+		public object mackeKojeSuUcestvovale;
+
 		#region Konstruktori
 		public Faq() { }
         public Faq(string pitanje, string odgovor)
@@ -22,6 +24,9 @@ namespace SpaceCat
 		public string Pitanje { get; set; }
 		[Required]
 		public string Odgovor { get; set; }
-        #endregion
+
+		
+
+		#endregion
     }
 }

@@ -30,6 +30,6 @@ namespace SpaceCat
 		[Required]
 		[DataType(DataType.Date)]
 		public DateTime VrijemeObjave { get; set; }
-        #endregion
+		#endregion
     }
 }

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<SpaceCat.Destinacija>
+@model IEnumerable<SpaceCat.Destinacija>
 
 @{
     ViewData["Title"] = "Index";
@@ -77,6 +77,8 @@
     .tabela-premium-nazivi {
         grid-column: 2 / span 1;
         grid-row: 9 / span 1;
+        margin: 0px;
+        font-size: 20px;
     }
 
     .planeta-slika {
@@ -93,19 +95,11 @@
         transition: all .2s ease-in-out;
     }
 
-    ul#ispod-planete li {
-        width: 11em;
-        display: inline;
-    }
-
-    ul#ispod-planete p {
+    .planeta-naziv {
+        width: 12em;
         margin-right: 4px;
-        width: 55%;
-    }
-
-    ul#ispod-planete img {
-        margin-right: 4px;
-        width: 13%;
+        color: #fff;
+        height: 10px;
     }
 
 
@@ -156,16 +150,16 @@
         <table class="table">
             <thead>
                 <tr>
-                    <td>
+                    <th>
                         @Html.DisplayNameFor(model => model.Paket)
-                    </td>
-                    <td>
+                    </th>
+                    <th>
                         @Html.DisplayNameFor(model => model.Naziv)
-                    </td>
-                    <td>
+                    </th>
+                    <th>
                         @Html.DisplayNameFor(model => model.Slika)
-                    </td>
-                    <td></td>
+                    </th>
+                    <th></th>
                 </tr>
             </thead>
       -->
@@ -178,9 +172,9 @@
                 {
                     Paket vrsta = item.Paket; if (vrsta == Paket.FREE)
                     {
-                        <td>
+                        <th>
                             <img class="planeta-slika" src=@Html.DisplayFor(modelItem => item.Slika) />
-                        </td>
+                        </th>
                     }
                 }
             </tr>
@@ -193,12 +187,11 @@
                 {
                     Paket vrsta = item.Paket; if (vrsta == Paket.FREE)
                     {
-                    <td>
-                            <p>
-                                    @Html.DisplayFor(modelItem => item.Naziv)
-                                </p>
-                            
-                </td>
+                        <th>
+                            <p class="planeta-naziv">
+                                @Html.DisplayFor(modelItem => item.Naziv)
+                            </p>
+                        </th>
                     }
                 }
             </tr>
@@ -215,9 +208,9 @@
                 {
                     Paket vrsta = item.Paket; if (vrsta == Paket.PREMIUM)
                     {
-                        <td>
+                        <th>
                             <img class="planeta-slika" src=@Html.DisplayFor(modelItem => item.Slika) />
-                        </td>
+                        </th>
                     }
                 }
             </tr>
@@ -230,30 +223,11 @@
                 {
                     Paket vrsta = item.Paket; if (vrsta == Paket.PREMIUM)
                     {
-                    <td>
-                       <ul id="ispod-planete">
-                        <li>
-                            <p>@Html.DisplayFor(modelItem => item.Naziv)</p>
-                        </li>
-                        <li>
-                            <a asp-action="Edit" asp-route-id="@item.ID" class="ikonica">
-                                <img src="https://i.ibb.co/KxfvpMr/uredi.png" />
-                            </a>
-                            
-                        </li>
-                        <li>
-                            <a asp-action="Details" asp-route-id="@item.ID" class="ikonica">
-                                <img src="https://i.ibb.co/42bdSZs/detalji.png" />
-                            </a>
-                            
-                        </li>
-                        <li>
-                            <a asp-action="Delete" asp-route-id="@item.ID" class="ikonica">
-                                <img src="https://i.ibb.co/fYw7rdJ/kanta.png" />
-                            </a>
-                        </li>
-                       </ul>
-                  </td>
+                        <th>
+                            <p class="planeta-naziv">
+                                @Html.DisplayFor(modelItem => item.Naziv)
+                            </p>
+                        </th>
                     }
                 }
             </tr>

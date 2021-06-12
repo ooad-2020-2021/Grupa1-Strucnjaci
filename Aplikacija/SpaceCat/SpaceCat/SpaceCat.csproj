@@ -1,60 +1,23 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>aspnet-SpaceCat-4831681F-5A2E-4FE9-AA8E-050062B60357</UserSecretsId>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <UserSecretsId>aspnet-SpaceCat-27C12E4F-AF39-42F7-B53E-B5736D67F47A</UserSecretsId>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Migrations\20210512094008_PrvaMigracija.cs" />
-    <Compile Remove="Migrations\20210512094008_PrvaMigracija.Designer.cs" />
-    <Compile Remove="Migrations\20210612023452_DrugaMigracija.cs" />
-    <Compile Remove="Migrations\20210612023452_DrugaMigracija.Designer.cs" />
-  </ItemGroup>
+    <ItemGroup>
+        <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.12" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.12" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.12" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.16" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.15" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.15">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
-    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <_ContentIncludedByDefault Remove="Views\Anketa\Create.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Anketa\Delete.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Anketa\Details.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Anketa\Edit.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Anketa\Index.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Komentar\Create.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Komentar\Delete.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Komentar\Details.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Komentar\Edit.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Komentar\Index.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Macka\Create.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Macka\Delete.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Macka\Details.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Macka\Edit.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Macka\Index.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Novost\Create.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Novost\Delete.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Novost\Details.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Novost\Edit.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Novost\Index.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Views\Macka\Create.cshtml" />
-    <UpToDateCheckInput Remove="Views\Macka\Delete.cshtml" />
-    <UpToDateCheckInput Remove="Views\Macka\Details.cshtml" />
-    <UpToDateCheckInput Remove="Views\Macka\Edit.cshtml" />
-    <UpToDateCheckInput Remove="Views\Macka\Index.cshtml" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.6" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.6" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.6" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.6" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.7" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.6" />
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+        <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
+    </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,9 +12,9 @@ namespace SpaceCat.Controllers
 {
     public class DestinacijaController : Controller
     {
-        private readonly SpaceCatContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public DestinacijaController(SpaceCatContext context)
+        public DestinacijaController(ApplicationDbContext context)
         {
             _context = context;
         }
@@ -50,8 +50,8 @@ namespace SpaceCat.Controllers
         }
 
         // POST: Destinacija/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ID,Paket,Naziv,Slika")] Destinacija destinacija)
@@ -82,8 +82,8 @@ namespace SpaceCat.Controllers
         }
 
         // POST: Destinacija/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("ID,Paket,Naziv,Slika")] Destinacija destinacija)

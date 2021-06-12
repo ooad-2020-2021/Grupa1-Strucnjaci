@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hadija\\Source\\Repos\\ooad-2020-2021\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj": {}
+    "C:\\Users\\Belma fax\\RiderProjects\\SpaceCat\\SpaceCat\\SpaceCat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hadija\\Source\\Repos\\ooad-2020-2021\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj": {
+    "C:\\Users\\Belma fax\\RiderProjects\\SpaceCat\\SpaceCat\\SpaceCat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hadija\\Source\\Repos\\ooad-2020-2021\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
+        "projectUniqueName": "C:\\Users\\Belma fax\\RiderProjects\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
         "projectName": "SpaceCat",
-        "projectPath": "C:\\Users\\hadija\\Source\\Repos\\ooad-2020-2021\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
-        "packagesPath": "C:\\Users\\hadija\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hadija\\Source\\Repos\\ooad-2020-2021\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\obj\\",
+        "projectPath": "C:\\Users\\Belma fax\\RiderProjects\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
+        "packagesPath": "C:\\Users\\Belma fax\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Belma fax\\RiderProjects\\SpaceCat\\SpaceCat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hadija\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Belma fax\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -37,38 +37,36 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.12, )"
+              "version": "[5.0.6, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.12, )"
+              "version": "[5.0.6, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[3.1.12, )"
+              "version": "[5.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.15, )"
+              "version": "[5.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[3.1.16, )"
+              "version": "[5.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.15, )"
+              "version": "[5.0.6, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[5.0.2, )"
             },
             "MySql.Data.EntityFrameworkCore": {
               "target": "Package",
@@ -93,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
