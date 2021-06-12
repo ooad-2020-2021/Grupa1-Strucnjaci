@@ -9,8 +9,8 @@ using SpaceCat.Data;
 namespace SpaceCat.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210612145227_Migracija101")]
-    partial class Migracija101
+    [Migration("20210612153406_TuznaMigracija")]
+    partial class TuznaMigracija
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -158,10 +158,12 @@ namespace SpaceCat.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("varchar(767)");
+                        .HasColumnType("varchar(128)")
+                        .HasMaxLength(128);
 
                     b.Property<string>("ProviderKey")
-                        .HasColumnType("varchar(767)");
+                        .HasColumnType("varchar(128)")
+                        .HasMaxLength(128);
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("text");
@@ -198,10 +200,12 @@ namespace SpaceCat.Migrations
                         .HasColumnType("varchar(767)");
 
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("varchar(767)");
+                        .HasColumnType("varchar(128)")
+                        .HasMaxLength(128);
 
                     b.Property<string>("Name")
-                        .HasColumnType("varchar(767)");
+                        .HasColumnType("varchar(128)")
+                        .HasMaxLength(128);
 
                     b.Property<string>("Value")
                         .HasColumnType("text");
