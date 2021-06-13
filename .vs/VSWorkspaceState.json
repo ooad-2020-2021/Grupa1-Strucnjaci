@@ -1,11 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Aplikacija",
-    "\\Aplikacija\\SpaceCat",
-    "\\Aplikacija\\SpaceCat\\SpaceCat",
-    "\\Aplikacija\\SpaceCat\\SpaceCat\\Models"
+    ""
   ],
-  "SelectedNode": "\\Aplikacija\\SpaceCat\\SpaceCat\\Models\\Anketa.cs",
+  "SelectedNode": "\\SpaceCat.sln",
   "PreviewInSolutionExplorer": false
 }

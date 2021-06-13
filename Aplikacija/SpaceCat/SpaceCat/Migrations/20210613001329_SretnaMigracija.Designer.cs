@@ -9,7 +9,7 @@ using SpaceCat.Data;
 namespace SpaceCat.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210612180737_SretnaMigracija")]
+    [Migration("20210613001329_SretnaMigracija")]
     partial class SretnaMigracija
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
