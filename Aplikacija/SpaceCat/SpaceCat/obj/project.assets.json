@@ -9965,11 +9965,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Belma fax\\source\\repos\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
       "projectName": "SpaceCat",
       "projectPath": "C:\\Users\\Belma fax\\source\\repos\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
       "packagesPath": "C:\\Users\\Belma fax\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Belma fax\\source\\repos\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\hadija\\source\\repos\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
+      "projectName": "SpaceCat",
+      "projectPath": "C:\\Users\\hadija\\source\\repos\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\SpaceCat.csproj",
+      "packagesPath": "C:\\Users\\hadija\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hadija\\source\\repos\\Grupa1-Strucnjaci\\Aplikacija\\SpaceCat\\SpaceCat\\obj\\",
+>>>>>>> f839ac34552871e71bb003b68bfec831b9a52762
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Belma fax\\AppData\\Roaming\\NuGet\\NuGet.Config",
