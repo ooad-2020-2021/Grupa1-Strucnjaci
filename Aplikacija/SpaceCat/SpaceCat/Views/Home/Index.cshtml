@@ -14,16 +14,15 @@
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 2fr 2fr 2fr 3fr 3fr 2fr 2fr 2fr 1fr;
-        grid-template-rows: 0.8fr 0.1fr 1fr 0.5fr 0.5fr 0.5fr;
-       
-        /*
+        grid-template-rows: 0.8fr 0.1fr 1fr 0.5fr 0.5fr 0.5fr 0.5fr; /*
         grid-template-areas:
             ". . . spacecat-logo spacecat-logo spacecat-logo spacecat-logo  . . ."
             ". . . . . slogan slogan slogan . . "
             ". . macka macka macka macka . . ."
             "button1 .  macka macka macka macka . . button6"
             ". button2  macka macka macka macka . button5 ."
-            ". . button3 macka macka macka macka button4 . .";
+            ". . button3 macka macka macka macka button4 . ."
+            ". . . . button7 button7 . . . .";
             */
     }
 
@@ -71,7 +70,10 @@
         grid-column: 9 / span 1;
         grid-row: 4 / span 1;
     }
-
+    .button7 {
+        grid-column: 5 / span 2;
+        grid-row: 7 / span 1;
+    }
     .btn {
         width: 10em;
         flex: 1 1 auto;
@@ -115,6 +117,10 @@
     .btn-6 {
         background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
     }
+    
+    .btn-7 {
+        background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+    }
 </style>
 
 
@@ -128,25 +134,28 @@
     <div class="macka">
         <img style="height:45em" src="https://i.ibb.co/cxm5w4q/maca.png" />
     </div>
-        <div class="button1">
-            <a class="btn btn-1" asp-area="Identity" asp-page="/Account/Login">Prijava</a>
-        </div>
-        <div class="button2">
-            <a class="btn btn-2" asp-area="Identity" asp-page="/Account/Register">Registracija</a>
-        </div>
-        <div class="button3">
-            <a asp-area="" asp-controller="Putovanje" asp-action="Index" class="btn btn-3">Naredni let</a>
-        </div>
-        <div class="button4">
-            <a asp-area="" asp-controller="Faq" asp-action="Index" class="btn btn-4">FAQ</a>
-        </div>
-        <div class="button5">
-            <a asp-area="" asp-controller="Novost" asp-action="Index" class="btn btn-5">Novosti</a>
-        </div>
-        <div class="button6">
-            <a asp-area="" asp-controller="Utisak" asp-action="Index" class="btn btn-6">Utisci</a>
-        </div>
-    
+    <div class="button1">
+        <a class="btn btn-1" asp-area="Identity" asp-page="/Account/Login">Prijava</a>
+    </div>
+    <div class="button2">
+        <a class="btn btn-2" asp-area="Identity" asp-page="/Account/Register">Registracija</a>
+    </div>
+    <div class="button3">
+        <a asp-area="" asp-controller="Putovanje" asp-action="Index" class="btn btn-3">Naredni let</a>
+    </div>
+    <div class="button4">
+        <a asp-area="" asp-controller="Faq" asp-action="Index" class="btn btn-4">FAQ</a>
+    </div>
+    <div class="button5">
+        <a asp-area="" asp-controller="Novost" asp-action="Index" class="btn btn-5">Novosti</a>
+    </div>
+    <div class="button6">
+        <a asp-area="" asp-controller="Utisak" asp-action="Index" class="btn btn-6">Utisci</a>
+    </div>
+    <div class="button7">
+        <a asp-area="" asp-controller="Macka" asp-action="Index" class="btn btn-7">Profil</a>
+    </div>
+
 
 </div>
 
