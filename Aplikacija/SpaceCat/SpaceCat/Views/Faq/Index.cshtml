@@ -1,0 +1,47 @@
+﻿@model IEnumerable<SpaceCat.Faq>
+
+@{
+    ViewData["Title"] = "Index";
+    
+}
+
+
+<h1>FAQ</h1>
+@if (User.IsInRole("admin"))
+{
+<p>
+    <a asp-action="Create">Dodaj FAQ</a>
+</p>}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Pitanje)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Odgovor)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pitanje)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Odgovor)
+            </td>
+            @if (User.IsInRole("admin"))
+            {
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                </td>
+            }
+            </tr>
+}
+    </tbody>
+</table>

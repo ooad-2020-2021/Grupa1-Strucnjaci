@@ -1,0 +1,104 @@
+﻿@using SpaceCat.Controllers
+@model IEnumerable<SpaceCat.Novost>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    body {
+        color: snow;
+        background-image: url("https://i.ibb.co/h10jKh0/novapoz.png");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #bijelitekst {
+        color: snow;
+    }
+
+    #naslov {
+        background-color: #043240;
+    }
+
+    #tekst {
+        background-color: #1f4c64;
+    }
+
+    #opcije {
+        background-color: #043240;
+    }
+
+    #naziv {
+        text-align: center;
+    }
+
+    #dodaj:link, #e:link, #del:link, #det:link, #e:visited, #del:visited, #det:visited, #dodaj:visited {
+        color: white;
+        text-decoration: none;
+    }
+
+    #dodaj:hover, #e:hover, #del:hover, #det:hover {
+        color: cadetblue;
+        text-decoration: none;
+    }
+
+    #tekst_dodaj {
+        text-align: center;
+    }
+</style>
+<h1 id="naziv">Novosti</h1>
+@if (User.IsInRole("admin"))
+{
+    <p id="tekst_dodaj">
+        <a id="dodaj" asp-action="Create">Dodaj novost</a>
+    </p>
+}
+
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    
+    <div class="carousel-inner">
+        <div class="carousel slide" data-ride="carousel" data-interval="5000" style="width:100%;">
+            <div class="carousel-inner">
+                @foreach (var item in Model)
+                {
+                <div class="carousel-item @(item.ID == 1 ? "active" : "")">
+
+                    <img src="https://www.thevintagenews.com/wp-content/uploads/2020/02/space_cat.jpg" class="d-block w-100" alt="..." />
+                    
+                   
+
+                       <div class="carousel-caption d-none d-md-block">
+
+                        <h5>@{Html.DisplayFor(modelItem => item.Naslov);}</h5>
+                        <p>
+                            @Html.DisplayFor(modelItem => item.Text)
+                        </p>
+                    </div>
+
+                </div>
+                 }
+            </div>
+        </div>
+
+
+
+       
+        
+
+
+
+
+
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+ 
+  </div>
