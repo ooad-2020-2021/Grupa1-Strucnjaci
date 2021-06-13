@@ -9,8 +9,8 @@ using SpaceCat.Data;
 namespace SpaceCat.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210612180737_SretnaMigracija")]
-    partial class SretnaMigracija
+    [Migration("20210613214746_Migracija")]
+    partial class Migracija
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -469,6 +469,35 @@ namespace SpaceCat.Migrations
                     b.HasIndex("MackaID");
 
                     b.ToTable("Utisak");
+                });
+
+            modelBuilder.Entity("SpaceCat.UtisakMacka", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("ImeMacke")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("Ocjena")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("OdabranaRanije")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<string>("Slika")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("UtisakMacka");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

@@ -23,6 +23,7 @@ namespace SpaceCat.Data
         public DbSet<SpaceCat.Putovanje> Putovanje { get; set; }
         public DbSet<SpaceCat.SlikaNovosti> SlikaNovosti { get; set; }
         public DbSet<SpaceCat.Utisak> Utisak { get; set; }
+        public DbSet<SpaceCat.UtisakMacka> UtisakMacka { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -36,7 +37,10 @@ namespace SpaceCat.Data
             modelBuilder.Entity<Novost>().ToTable("Novost");
             modelBuilder.Entity<Putovanje>().ToTable("Putovanje");
             modelBuilder.Entity<SlikaNovosti>().ToTable("SlikaNovosti");
-            modelBuilder.Entity<Utisak>().ToTable("Utisak");
+            modelBuilder.Entity<Utisak>().ToTable("Utisak"); 
+            modelBuilder.Entity<UtisakMacka>().ToTable("UtisakMacka");
         }
+
+        
     }
 }

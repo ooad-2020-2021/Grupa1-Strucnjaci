@@ -4,7 +4,7 @@ using MySql.Data.EntityFrameworkCore.Metadata;
 
 namespace SpaceCat.Migrations
 {
-    public partial class SretnaMigracija : Migration
+    public partial class Migracija : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -130,6 +130,23 @@ namespace SpaceCat.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_SlikaNovosti", x => x.ID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "UtisakMacka",
+                columns: table => new
+                {
+                    ID = table.Column<int>(nullable: false)
+                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
+                    ImeMacke = table.Column<string>(nullable: false),
+                    Slika = table.Column<string>(nullable: false),
+                    OdabranaRanije = table.Column<bool>(nullable: false),
+                    Text = table.Column<string>(nullable: false),
+                    Ocjena = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_UtisakMacka", x => x.ID);
                 });
 
             migrationBuilder.CreateTable(
@@ -442,6 +459,9 @@ namespace SpaceCat.Migrations
 
             migrationBuilder.DropTable(
                 name: "Utisak");
+
+            migrationBuilder.DropTable(
+                name: "UtisakMacka");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

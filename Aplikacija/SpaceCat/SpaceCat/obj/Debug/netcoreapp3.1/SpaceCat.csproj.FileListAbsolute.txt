@@ -964,3 +964,10 @@ C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCa
 C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\SpaceCat.dll
 C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\SpaceCat.pdb
 C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\SpaceCat.genruntimeconfig.cache
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\UtisakMacka\Create.cshtml.g.cs
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\UtisakMacka\Delete.cshtml.g.cs
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\UtisakMacka\Details.cshtml.g.cs
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\UtisakMacka\Edit.cshtml.g.cs
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\UtisakMacka\Index.cshtml.g.cs
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\Utisak\Index - Copy.cshtml.g.cs
+C:\Users\hadija\Source\Repos\ooad-2020-2021\Grupa1-Strucnjaci\Aplikacija\SpaceCat\SpaceCat\obj\Debug\netcoreapp3.1\Razor\Views\UtisakMacka\Index - Copy.cshtml.g.cs

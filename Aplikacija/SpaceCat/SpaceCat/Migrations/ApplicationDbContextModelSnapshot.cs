@@ -469,6 +469,35 @@ namespace SpaceCat.Migrations
                     b.ToTable("Utisak");
                 });
 
+            modelBuilder.Entity("SpaceCat.UtisakMacka", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("ImeMacke")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("Ocjena")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("OdabranaRanije")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<string>("Slika")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("UtisakMacka");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
