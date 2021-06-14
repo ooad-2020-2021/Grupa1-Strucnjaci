@@ -13,20 +13,7 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="ImeMacke" class="control-label"></label>
-                <input asp-for="ImeMacke" class="form-control" />
-                <span asp-validation-for="ImeMacke" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Slika" class="control-label"></label>
-                <input asp-for="Slika" class="form-control" />
-                <span asp-validation-for="Slika" class="text-danger"></span>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="OdabranaRanije" /> @Html.DisplayNameFor(model => model.OdabranaRanije)
-                </label>
-            </div>
+     
             <div class="form-group">
                 <label asp-for="Text" class="control-label"></label>
                 <input asp-for="Text" class="form-control" />

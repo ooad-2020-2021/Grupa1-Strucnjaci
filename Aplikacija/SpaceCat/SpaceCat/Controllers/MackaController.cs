@@ -19,7 +19,7 @@ namespace SpaceCat.Controllers
         {
             _context = context;
         }
-
+        [Authorize(Roles = "user")]
         // GET: Macka
         public async Task<IActionResult> Index()
         {

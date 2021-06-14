@@ -150,13 +150,15 @@
         <a asp-area="" asp-controller="Novost" asp-action="Index" class="btn btn-5">Novosti</a>
     </div>
     <div class="button6">
-        <a asp-area="" asp-controller="Utisak" asp-action="Index" class="btn btn-6">Utisci</a>
+        <a asp-area="" asp-controller="UtisakMacka" asp-action="Index" class="btn btn-6">Utisci</a>
     </div>
-    <div class="button7">
-        <a asp-area="" asp-controller="Macka" asp-action="Index" class="btn btn-7">Profil</a>
-    </div>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <div class="button7">
+            <a asp-area="Identity" asp-page="/Account/Manage/Index" class="btn btn-7">Profil</a>
+        </div>
 
-
+    }
 </div>
 
 

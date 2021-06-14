@@ -7,6 +7,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        
     }
     /* general styling */
     #countd {
@@ -35,6 +36,7 @@
     }
 
     h1 {
+        color: snow;
         font-weight: normal;
         letter-spacing: .125rem;
         text-transform: uppercase;
@@ -70,91 +72,96 @@
 }
 
 <h1 id="let">NAREDNI LET</h1>
-
-<p>
+@if (User.IsInRole("admin"))
+{
+<p style="color: snow;">
+    
     <a asp-action="Create">Dodaj putovanje</a>
 </p>
-<!--
-<table class="table">
+}
+    <table class="table" style="color: snow;">
 
-    <thead>
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.VrijemePolaska)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.KrajPutovanja)
-        </th>
-        <th></th>
-    </tr>
-    </thead>
-    <tbody>
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.VrijemePolaska)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.KrajPutovanja)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
-            </td>
-        </tr>
-    }
-    </tbody>
-</table>
--->
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.VrijemePolaska)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.KrajPutovanja)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.VrijemePolaska)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.KrajPutovanja)
+                    </td>
+                    <td>
+                        @if (User.IsInRole("admin"))
+                        {
+                            <a asp-action="Edit" asp-route-id="@item.ID" > Edit </a>
+                            <a asp-action="Details" asp-route-id="@item.ID">Details</a>
+                            <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>}
 
-<div class="container" id="countd">
-    <h1 id="headline">   Do narednog leta:</h1>
-    <br />
-    <div id="countdown">
-        <ul>
-            <li id="s1"><span id="days"></span>dana</li>
-            <li id="s2"><span id="hours"></span>sati</li>
-            <li id="s3"><span id="minutes"></span>minuta</li>
-            <li id="s4"><span id="seconds"></span>sekundi</li>
-        </ul>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+    <div class="container" id="countd">
+        <h1 id="headline">   Do narednog leta:</h1>
+        <br />
+        <div id="countdown">
+            <ul>
+                <li id="s1"><span id="days"></span>dana</li>
+                <li id="s2"><span id="hours"></span>sati</li>
+                <li id="s3"><span id="minutes"></span>minuta</li>
+                <li id="s4"><span id="seconds"></span>sekundi</li>
+            </ul>
+        </div>
+
     </div>
 
-</div>
+    <script>
+        (function () {
+            const second = 1000,
+                minute = second * 60,
+                hour = minute * 60,
+                day = hour * 24;
 
-<script>
-(function () {
-  const second = 1000,
-        minute = second * 60,
-        hour = minute * 60,
-        day = hour * 24;
+            let birthday = "Sep 29, 2021 00:00:00",
+                countDown = new Date(birthday).getTime(),
+                x = setInterval(function () {
 
-  let birthday = "Sep 29, 2021 00:00:00",
-      countDown = new Date(birthday).getTime(),
-      x = setInterval(function() {
+                    let now = new Date().getTime(),
+                        distance = countDown - now;
 
-        let now = new Date().getTime(),
-            distance = countDown - now;
+                    document.getElementById("days").innerText = Math.floor(distance / (day)),
+                        document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+                        document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+                        document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
 
-        document.getElementById("days").innerText = Math.floor(distance / (day)),
-          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+                    //do something later when date is reached
+                    if (distance < 0) {
+                        let headline = document.getElementById("headline"),
+                            countdown = document.getElementById("countdown"),
+                            content = document.getElementById("content");
 
-        //do something later when date is reached
-        if (distance < 0) {
-          let headline = document.getElementById("headline"),
-              countdown = document.getElementById("countdown"),
-              content = document.getElementById("content");
+                        headline.innerText = "Naredni let";
+                        countdown.style.display = "none";
+                        content.style.display = "block";
 
-          headline.innerText = "Naredni let";
-          countdown.style.display = "none";
-          content.style.display = "block";
-
-          clearInterval(x);
-        }
-        //seconds
-      }, 0)
-  }());
-</script>
+                        clearInterval(x);
+                    }
+                    //seconds
+                }, 0)
+        }());
+    </script>
