@@ -10,6 +10,9 @@
 * [Belma Hadžić](https://github.com/bhadzic2)
 * [Hadija Ahmatović](https://github.com/hahmatovic1)
 
+## Link za deployment
+(http://bhadzic2-001-site1.itempurl.com/)
+
 ## Opis teme: 
 SpaceCat je aplikacija koja pruža odabranim vlasnicima mačaka šansu da bezbjedno pošalju svog voljenog ljubimca u svemir. Cilj naše aplikacije je da mačke kolonizuju ostatak svemira. Omogućite svojoj mački da kroz par koraka dođe do svemira i pružite joj užitak iz snova. 
 Svaki mjesec biramo 10 sretnih dobitnika kojima ispunjavamo želju da pošalju svoju macu na jednu od ponuđenih destinacija u svemiru.
